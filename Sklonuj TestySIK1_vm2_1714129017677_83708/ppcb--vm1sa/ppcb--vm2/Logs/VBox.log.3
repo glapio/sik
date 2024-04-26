@@ -1,0 +1,1913 @@
+00:00:00.027399 VirtualBox VM 7.0.10 r158379 linux.amd64 (Jul 12 2023 20:30:28) release log
+00:00:00.027401 Log opened 2024-04-26T16:06:11.187226000Z
+00:00:00.027402 Build Type: release
+00:00:00.027404 OS Product: Linux
+00:00:00.027405 OS Release: 6.1.0-20-amd64
+00:00:00.027406 OS Version: #1 SMP PREEMPT_DYNAMIC Debian 6.1.85-1 (2024-04-11)
+00:00:00.027424 DMI Product Name: Precision T1700
+00:00:00.027431 DMI Product Version: 00
+00:00:00.027436 Firmware type: UEFI
+00:00:00.027658 Secure Boot: Disabled
+00:00:00.027688 Host RAM: 7882MB (7.6GB) total, 7017MB (6.8GB) available
+00:00:00.027690 Executable: /usr/lib/virtualbox/VBoxHeadless
+00:00:00.027691 Process ID: 7101
+00:00:00.027691 Package type: LINUX_64BITS__DEBIAN_12
+00:00:00.028649 Installed Extension Packs:
+00:00:00.028655   Oracle VM VirtualBox Extension Pack (Version: 7.0.10 r158379; VRDE Module: VBoxVRDP; Crypto Module: VBoxPuelCrypto)
+00:00:00.029149 Console: Machine state changed to 'Starting'
+00:00:00.030104 VRDP: Statistics created: [full], enabled: 0.
+00:00:00.030575 VRDP: VRDP: VD: Frames=10 MinMS=15 MaxMS=300 HistoryMS=2000 VideoMS=300
+00:00:00.030661 VRDP: Failed to query a property: 9, rc = VERR_NOT_SUPPORTED
+00:00:00.031012 VRDP: TCP server failed to bind to a port: default 3389, range [5977]
+00:00:00.031025 VRDP: Failed to start VRDP-IN thread, rc = VERR_NET_ADDRESS_IN_USE
+00:00:00.031066 VRDP: TCP server closed.
+00:00:00.031190 VRDE: Warning: failed to launch VRDE server (VERR_NET_ADDRESS_IN_USE): VirtualBox Remote Desktop Extension server can't bind to the port(s): 5977
+00:00:00.031625 SUP: Opened VMMR0.r0 (/usr/lib/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX.
+00:00:00.033324 Guest OS type: 'Debian12_64'
+00:00:00.034542 fHMForced=true - No raw-mode support in this build!
+00:00:00.040696 File system of '/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk' is nfs
+00:00:00.054448 Shared Clipboard: Service loaded
+00:00:00.054462 Shared Clipboard: Mode: Off
+00:00:00.054640 Shared Clipboard: Service running in headless mode
+00:00:00.055966 Drag and drop service loaded
+00:00:00.055971 Drag and drop mode: Off
+00:00:00.058939 Per-VM extradata API settings:
+00:00:00.058944   VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant="1"
+00:00:00.059124 ************************* CFGM dump *************************
+00:00:00.059127 [/] (level 0)
+00:00:00.059133   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:00.059136   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:00.059137   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:00.059137   MemBalloonSize    <integer> = 0x0000000000000000 (0, 0 B)
+00:00:00.059139   Name              <string>  = "ppcb--vm2" (cb=10)
+00:00:00.059140   NumCPUs           <integer> = 0x0000000000000002 (2)
+00:00:00.059141   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:00.059141   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512.0 MiB)
+00:00:00.059143   RamSize           <integer> = 0x0000000040000000 (1 073 741 824, 1.0 GiB)
+00:00:00.059144   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:00.059145   UUID              <bytes>   = "e5 ca 06 fb c3 df 04 43 af 7e 52 88 1b 81 7e e7" (cb=16)
+00:00:00.059147 
+00:00:00.059148 [/CPUM/] (level 1)
+00:00:00.059149   Enable64bit        <integer> = 0x0000000000000001 (1)
+00:00:00.059150   GuestCpuName       <string>  = "host" (cb=5)
+00:00:00.059151   NestedHWVirt       <integer> = 0x0000000000000000 (0)
+00:00:00.059151   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:00.059152   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:00.059153 
+00:00:00.059153 [/CPUM/IsaExts/] (level 2)
+00:00:00.059154 
+00:00:00.059155 [/DBGC/] (level 1)
+00:00:00.059156   GlobalInitScript <string>  = "/home/students/mat/b/bz430362/.config/VirtualBox/dbgc-init" (cb=59)
+00:00:00.059156   HistoryFile      <string>  = "/home/students/mat/b/bz430362/.config/VirtualBox/dbgc-history" (cb=62)
+00:00:00.059157   LocalInitScript  <string>  = "/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/dbgc-init" (cb=65)
+00:00:00.059158 
+00:00:00.059158 [/DBGF/] (level 1)
+00:00:00.059158   Path <string>  = "/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/debug/;/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/;cache*/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/dbgcache/;/home/students/mat/b/bz430362/" (cb=220)
+00:00:00.059159 
+00:00:00.059159 [/Devices/] (level 1)
+00:00:00.059160 
+00:00:00.059160 [/Devices/3c501/] (level 2)
+00:00:00.059161 
+00:00:00.059161 [/Devices/8237A/] (level 2)
+00:00:00.059162 
+00:00:00.059162 [/Devices/8237A/0/] (level 3)
+00:00:00.059163   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059164 
+00:00:00.059164 [/Devices/VMMDev/] (level 2)
+00:00:00.059165 
+00:00:00.059165 [/Devices/VMMDev/0/] (level 3)
+00:00:00.059166   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059166   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:00.059167   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059168   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059168 
+00:00:00.059169 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:00.059170   GuestCoreDumpDir <string>  = "/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/Snapshots" (cb=65)
+00:00:00.059170 
+00:00:00.059170 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:00.059171   Driver <string>  = "HGCM" (cb=5)
+00:00:00.059172 
+00:00:00.059172 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:00.059173 
+00:00:00.059173 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:00.059174   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059175 
+00:00:00.059175 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:00.059176   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059177   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:00.059177   Last                 <integer> = 0x0000000000000000 (0)
+00:00:00.059178   iLedSet              <integer> = 0x0000000000000005 (5)
+00:00:00.059179 
+00:00:00.059179 [/Devices/acpi/] (level 2)
+00:00:00.059180 
+00:00:00.059180 [/Devices/acpi/0/] (level 3)
+00:00:00.059181   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059181   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:00.059182   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059183   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059183 
+00:00:00.059183 [/Devices/acpi/0/Config/] (level 4)
+00:00:00.059184   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:00.059185   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.059186   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:00.059186   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:00.059187   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:00.059188   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:00.059189   NumCPUs             <integer> = 0x0000000000000002 (2)
+00:00:00.059189   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.059190   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.059190   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.059191   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.059192   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.059192   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.059193   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.059193   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.059194   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:00.059195   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:00.059195   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.059196 
+00:00:00.059196 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:00.059197   Driver <string>  = "ACPIHost" (cb=9)
+00:00:00.059198 
+00:00:00.059198 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:00.059199 
+00:00:00.059199 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:00.059200   Driver <string>  = "ACPICpu" (cb=8)
+00:00:00.059200 
+00:00:00.059201 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:00.059202 
+00:00:00.059202 [/Devices/apic/] (level 2)
+00:00:00.059203 
+00:00:00.059203 [/Devices/apic/0/] (level 3)
+00:00:00.059204   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059204 
+00:00:00.059204 [/Devices/apic/0/Config/] (level 4)
+00:00:00.059205   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:00.059206   Mode    <integer> = 0x0000000000000002 (2)
+00:00:00.059207   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:00.059207 
+00:00:00.059207 [/Devices/dp8390/] (level 2)
+00:00:00.059208 
+00:00:00.059208 [/Devices/e1000/] (level 2)
+00:00:00.059209 
+00:00:00.059209 [/Devices/i8254/] (level 2)
+00:00:00.059210 
+00:00:00.059210 [/Devices/i8254/0/] (level 3)
+00:00:00.059211 
+00:00:00.059211 [/Devices/i8254/0/Config/] (level 4)
+00:00:00.059212 
+00:00:00.059212 [/Devices/i8259/] (level 2)
+00:00:00.059213 
+00:00:00.059213 [/Devices/i8259/0/] (level 3)
+00:00:00.059214   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059215 
+00:00:00.059215 [/Devices/i8259/0/Config/] (level 4)
+00:00:00.059216 
+00:00:00.059216 [/Devices/ioapic/] (level 2)
+00:00:00.059217 
+00:00:00.059217 [/Devices/ioapic/0/] (level 3)
+00:00:00.059218   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059218 
+00:00:00.059218 [/Devices/ioapic/0/Config/] (level 4)
+00:00:00.059219   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:00.059220 
+00:00:00.059220 [/Devices/mc146818/] (level 2)
+00:00:00.059221 
+00:00:00.059221 [/Devices/mc146818/0/] (level 3)
+00:00:00.059222 
+00:00:00.059222 [/Devices/mc146818/0/Config/] (level 4)
+00:00:00.059223   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:00.059224 
+00:00:00.059224 [/Devices/parallel/] (level 2)
+00:00:00.059225 
+00:00:00.059225 [/Devices/pcarch/] (level 2)
+00:00:00.059226 
+00:00:00.059226 [/Devices/pcarch/0/] (level 3)
+00:00:00.059227   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059227 
+00:00:00.059227 [/Devices/pcarch/0/Config/] (level 4)
+00:00:00.059228 
+00:00:00.059228 [/Devices/pcbios/] (level 2)
+00:00:00.059229 
+00:00:00.059229 [/Devices/pcbios/0/] (level 3)
+00:00:00.059230   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059231 
+00:00:00.059231 [/Devices/pcbios/0/Config/] (level 4)
+00:00:00.059232   APIC           <integer> = 0x0000000000000001 (1)
+00:00:00.059233   BootDevice0    <string>  = "IDE" (cb=4)
+00:00:00.059233   BootDevice1    <string>  = "DVD" (cb=4)
+00:00:00.059234   BootDevice2    <string>  = "NONE" (cb=5)
+00:00:00.059234   BootDevice3    <string>  = "NONE" (cb=5)
+00:00:00.059235   FloppyDevice   <string>  = "i82078" (cb=7)
+00:00:00.059235   HardDiskDevice <string>  = "piix3ide" (cb=9)
+00:00:00.059236   IOAPIC         <integer> = 0x0000000000000001 (1)
+00:00:00.059236   LanBootRom     <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/PXE-Intel.rom" (cb=85)
+00:00:00.059237   McfgBase       <integer> = 0x0000000000000000 (0)
+00:00:00.059238   McfgLength     <integer> = 0x0000000000000000 (0)
+00:00:00.059238   NumCPUs        <integer> = 0x0000000000000002 (2)
+00:00:00.059239   PXEDebug       <integer> = 0x0000000000000000 (0)
+00:00:00.059239   UUID           <bytes>   = "e5 ca 06 fb c3 df 04 43 af 7e 52 88 1b 81 7e e7" (cb=16)
+00:00:00.059241   UuidLe         <integer> = 0x0000000000000001 (1)
+00:00:00.059242 
+00:00:00.059242 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:00.059243 
+00:00:00.059244 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:00.059245   NIC           <integer> = 0x0000000000000000 (0)
+00:00:00.059245   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059246   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.059247   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059247 
+00:00:00.059247 [/Devices/pci/] (level 2)
+00:00:00.059248 
+00:00:00.059248 [/Devices/pci/0/] (level 3)
+00:00:00.059249   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059250 
+00:00:00.059250 [/Devices/pci/0/Config/] (level 4)
+00:00:00.059251   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:00.059251 
+00:00:00.059252 [/Devices/pcibridge/] (level 2)
+00:00:00.059252 
+00:00:00.059253 [/Devices/pckbd/] (level 2)
+00:00:00.059253 
+00:00:00.059253 [/Devices/pckbd/0/] (level 3)
+00:00:00.059254   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.059255 
+00:00:00.059255 [/Devices/pckbd/0/Config/] (level 4)
+00:00:00.059256 
+00:00:00.059256 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:00.059257   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:00.059257 
+00:00:00.059258 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.059259   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:00.059259 
+00:00:00.059259 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:00.059260   QueueSize <integer> = 0x0000000000000040 (64, 64 B)
+00:00:00.059261 
+00:00:00.059262 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:00.059262   Driver <string>  = "MouseQueue" (cb=11)
+00:00:00.059263 
+00:00:00.059263 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.059264   Driver <string>  = "MainMouse" (cb=10)
+00:00:00.059264 
+00:00:00.059265 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:00.059266   QueueSize <integer> = 0x0000000000000080 (128, 128 B)
+00:00:00.059266 
+00:00:00.059267 [/Devices/pcnet/] (level 2)
+00:00:00.059267 
+00:00:00.059268 [/Devices/piix3ide/] (level 2)
+00:00:00.059268 
+00:00:00.059269 [/Devices/piix3ide/0/] (level 3)
+00:00:00.059269   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059270   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:00.059271   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:00.059271   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059272 
+00:00:00.059272 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:00.059273   Type <string>  = "PIIX4" (cb=6)
+00:00:00.059273 
+00:00:00.059274 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:00.059275   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059275 
+00:00:00.059275 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:00.059276   DeviceInstance       <string>  = "piix3ide/0" (cb=11)
+00:00:00.059277   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059278   HasMediumAttachments <integer> = 0x0000000000000001 (1)
+00:00:00.059278   Last                 <integer> = 0x0000000000000003 (3)
+00:00:00.059279   iLedSet              <integer> = 0x0000000000000001 (1)
+00:00:00.059280 
+00:00:00.059280 [/Devices/serial/] (level 2)
+00:00:00.059281 
+00:00:00.059281 [/Devices/vga/] (level 2)
+00:00:00.059281 
+00:00:00.059282 [/Devices/vga/0/] (level 3)
+00:00:00.059283   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059283   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:00.059284   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059284   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059285 
+00:00:00.059285 [/Devices/vga/0/Config/] (level 4)
+00:00:00.059286   3DEnabled        <integer> = 0x0000000000000000 (0)
+00:00:00.059287   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:00.059287   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:00.059288   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:00.059289   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:00.059289   LogoFile         <string>  = "" (cb=1)
+00:00:00.059290   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:00.059290   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:00.059291   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:00.059292   VRamSize         <integer> = 0x0000000000400000 (4 194 304, 4.0 MiB)
+00:00:00.059293 
+00:00:00.059293 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:00.059294   Driver <string>  = "MainDisplay" (cb=12)
+00:00:00.059294 
+00:00:00.059294 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:00.059295 
+00:00:00.059296 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:00.059296   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059297 
+00:00:00.059297 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:00.059298   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059299   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:00.059299   Last                 <integer> = 0x0000000000000000 (0)
+00:00:00.059300   iLedSet              <integer> = 0x0000000000000000 (0)
+00:00:00.059301 
+00:00:00.059301 [/Devices/virtio-net/] (level 2)
+00:00:00.059302 
+00:00:00.059302 [/Devices/virtio-net/0/] (level 3)
+00:00:00.059303   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059304   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.059304   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059305   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059305 
+00:00:00.059306 [/Devices/virtio-net/0/Config/] (level 4)
+00:00:00.059306   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:00.059307   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:00.059308   MAC            <bytes>   = "08 00 27 c0 08 51" (cb=6)
+00:00:00.059309 
+00:00:00.059309 [/Devices/virtio-net/0/LUN#0/] (level 4)
+00:00:00.059310   Driver <string>  = "NAT" (cb=4)
+00:00:00.059310 
+00:00:00.059311 [/Devices/virtio-net/0/LUN#0/Config/] (level 5)
+00:00:00.059312   AliasMode          <integer> = 0x0000000000000000 (0)
+00:00:00.059312   BootFile           <string>  = "ppcb--vm2.pxe" (cb=14)
+00:00:00.059313   DNSProxy           <integer> = 0x0000000000000001 (1)
+00:00:00.059314   LocalhostReachable <integer> = 0x0000000000000001 (1)
+00:00:00.059314   Network            <string>  = "10.0.2.0/24" (cb=12)
+00:00:00.059315   PassDomain         <integer> = 0x0000000000000001 (1)
+00:00:00.059315   TFTPPrefix         <string>  = "/home/students/mat/b/bz430362/.config/VirtualBox/TFTP" (cb=54)
+00:00:00.059316   UseHostResolver    <integer> = 0x0000000000000000 (0)
+00:00:00.059317 
+00:00:00.059317 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/] (level 6)
+00:00:00.059318 
+00:00:00.059318 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/0/] (level 7)
+00:00:00.059320   BindIP    <string>  = "127.0.0.1" (cb=10)
+00:00:00.059320   GuestPort <integer> = 0x0000000000000016 (22)
+00:00:00.059321   HostPort  <integer> = 0x0000000000000898 (2 200)
+00:00:00.059322   Name      <string>  = "ssh" (cb=4)
+00:00:00.059322   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.059323 
+00:00:00.059323 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/1/] (level 7)
+00:00:00.059324   GuestPort <integer> = 0x0000000000000016 (22)
+00:00:00.059325   HostPort  <integer> = 0x00000000000007d3 (2 003)
+00:00:00.059325   Name      <string>  = "tcp2003" (cb=8)
+00:00:00.059326   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.059326 
+00:00:00.059326 [/Devices/virtio-net/0/LUN#999/] (level 4)
+00:00:00.059327   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059328 
+00:00:00.059328 [/Devices/virtio-net/0/LUN#999/Config/] (level 5)
+00:00:00.059329   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059330   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:00.059330   Last                 <integer> = 0x0000000000000000 (0)
+00:00:00.059331   iLedSet              <integer> = 0x0000000000000003 (3)
+00:00:00.059332 
+00:00:00.059332 [/Devices/virtio-net/1/] (level 3)
+00:00:00.059333   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059333   PCIDeviceNo   <integer> = 0x0000000000000008 (8)
+00:00:00.059334   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059334   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059335 
+00:00:00.059335 [/Devices/virtio-net/1/Config/] (level 4)
+00:00:00.059336   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:00.059337   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:00.059337   MAC            <bytes>   = "08 00 27 d2 d0 a3" (cb=6)
+00:00:00.059338 
+00:00:00.059339 [/Devices/virtio-net/1/LUN#0/] (level 4)
+00:00:00.059340   Driver <string>  = "IntNet" (cb=7)
+00:00:00.059340 
+00:00:00.059340 [/Devices/virtio-net/1/LUN#0/Config/] (level 5)
+00:00:00.059341   IfPolicyPromisc <string>  = "deny" (cb=5)
+00:00:00.059342   Network         <string>  = "po-siknet" (cb=10)
+00:00:00.059342   TrunkType       <integer> = 0x0000000000000002 (2)
+00:00:00.059343 
+00:00:00.059343 [/Devices/virtio-net/1/LUN#999/] (level 4)
+00:00:00.059344   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059344 
+00:00:00.059345 [/Devices/virtio-net/1/LUN#999/Config/] (level 5)
+00:00:00.059346   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059346   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:00.059347   Last                 <integer> = 0x0000000000000000 (0)
+00:00:00.059348   iLedSet              <integer> = 0x0000000000000004 (4)
+00:00:00.059348 
+00:00:00.059348 [/Devices/virtio-scsi/] (level 2)
+00:00:00.059349 
+00:00:00.059349 [/Devices/virtio-scsi/0/] (level 3)
+00:00:00.059350   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.059351   PCIDeviceNo   <integer> = 0x000000000000000f (15)
+00:00:00.059351   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.059352   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.059353 
+00:00:00.059353 [/Devices/virtio-scsi/0/Config/] (level 4)
+00:00:00.059354   Bootable   <integer> = 0x0000000000000001 (1)
+00:00:00.059354   NumTargets <integer> = 0x0000000000000001 (1)
+00:00:00.059355 
+00:00:00.059355 [/Devices/virtio-scsi/0/LUN#0/] (level 4)
+00:00:00.059356   Driver <string>  = "SCSI" (cb=5)
+00:00:00.059356 
+00:00:00.059357 [/Devices/virtio-scsi/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.059358   Driver <string>  = "VD" (cb=3)
+00:00:00.059358 
+00:00:00.059358 [/Devices/virtio-scsi/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.059359   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:00.059360   Format     <string>  = "VMDK" (cb=5)
+00:00:00.059360   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:00.059361   Path       <string>  = "/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk" (cb=74)
+00:00:00.059362   Type       <string>  = "HardDisk" (cb=9)
+00:00:00.059362   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:00.059363 
+00:00:00.059363 [/Devices/virtio-scsi/0/LUN#0/AttachedDriver/Config/Plugins/] (level 7)
+00:00:00.059364 
+00:00:00.059364 [/Devices/virtio-scsi/0/LUN#0/AttachedDriver/Config/Plugins/VDPluginCrypt/] (level 8)
+00:00:00.059366   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VDPluginCrypt.so" (cb=100)
+00:00:00.059366 
+00:00:00.059367 [/Devices/virtio-scsi/0/LUN#0/AttachedDriver/Config/VDConfig/] (level 7)
+00:00:00.059368 
+00:00:00.059368 [/Devices/virtio-scsi/0/LUN#999/] (level 4)
+00:00:00.059369   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.059369 
+00:00:00.059370 [/Devices/virtio-scsi/0/LUN#999/Config/] (level 5)
+00:00:00.059371   DeviceInstance       <string>  = "virtio-scsi/0" (cb=14)
+00:00:00.059371   First                <integer> = 0x0000000000000000 (0)
+00:00:00.059372   HasMediumAttachments <integer> = 0x0000000000000001 (1)
+00:00:00.059373   Last                 <integer> = 0x0000000000000000 (0)
+00:00:00.059373   iLedSet              <integer> = 0x0000000000000002 (2)
+00:00:00.059374 
+00:00:00.059374 [/EM/] (level 1)
+00:00:00.059375   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:00.059375 
+00:00:00.059376 [/GCM/] (level 1)
+00:00:00.059376   FixerSet <integer> = 0x0000000000000000 (0)
+00:00:00.059377 
+00:00:00.059377 [/GIM/] (level 1)
+00:00:00.059378   Provider <string>  = "None" (cb=5)
+00:00:00.059378 
+00:00:00.059378 [/HM/] (level 1)
+00:00:00.059379   64bitEnabled        <integer> = 0x0000000000000001 (1)
+00:00:00.059380   EnableLargePages    <integer> = 0x0000000000000001 (1)
+00:00:00.059380   EnableNestedPaging  <integer> = 0x0000000000000001 (1)
+00:00:00.059381   EnableUX            <integer> = 0x0000000000000001 (1)
+00:00:00.059382   EnableVPID          <integer> = 0x0000000000000001 (1)
+00:00:00.059382   Exclusive           <integer> = 0x0000000000000001 (1)
+00:00:00.059383   HMForced            <integer> = 0x0000000000000001 (1)
+00:00:00.059384   IBPBOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:00.059384   IBPBOnVMExit        <integer> = 0x0000000000000000 (0)
+00:00:00.059385   L1DFlushOnSched     <integer> = 0x0000000000000001 (1)
+00:00:00.059386   L1DFlushOnVMEntry   <integer> = 0x0000000000000000 (0)
+00:00:00.059386   MDSClearOnSched     <integer> = 0x0000000000000001 (1)
+00:00:00.059387   MDSClearOnVMEntry   <integer> = 0x0000000000000000 (0)
+00:00:00.059387   SpecCtrlByHost      <integer> = 0x0000000000000000 (0)
+00:00:00.059388   SvmVirtVmsaveVmload <integer> = 0x0000000000000000 (0)
+00:00:00.059388   UseNEMInstead       <integer> = 0x0000000000000000 (0)
+00:00:00.059389 
+00:00:00.059389 [/MM/] (level 1)
+00:00:00.059390   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:00.059390 
+00:00:00.059391 [/NEM/] (level 1)
+00:00:00.059391   Allow64BitGuests <integer> = 0x0000000000000001 (1)
+00:00:00.059392 
+00:00:00.059392 [/PDM/] (level 1)
+00:00:00.059393 
+00:00:00.059393 [/PDM/AsyncCompletion/] (level 2)
+00:00:00.059394 
+00:00:00.059394 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:00.059395 
+00:00:00.059395 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:00.059396 
+00:00:00.059396 [/PDM/BlkCache/] (level 2)
+00:00:00.059397   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5.0 MiB)
+00:00:00.059398 
+00:00:00.059398 [/PDM/Devices/] (level 2)
+00:00:00.059399 
+00:00:00.059399 [/PDM/Devices/VBoxNvme/] (level 3)
+00:00:00.059400   Path         <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxNvmeR3.so" (cb=97)
+00:00:00.059400   R0SearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.059401 
+00:00:00.059401 [/PDM/Drivers/] (level 2)
+00:00:00.059402 
+00:00:00.059402 [/PDM/Drivers/DrvHostWebcam/] (level 3)
+00:00:00.059403   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so" (cb=101)
+00:00:00.059403 
+00:00:00.059403 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:00.059404   Path <string>  = "/usr/lib/virtualbox/components/VBoxC" (cb=37)
+00:00:00.059405 
+00:00:00.059405 [/PDM/NetworkShaper/] (level 2)
+00:00:00.059406 
+00:00:00.059406 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:00.059407 
+00:00:00.059407 [/PDM/USB/] (level 2)
+00:00:00.059408 
+00:00:00.059408 [/PDM/USB/VBoxUsbCardReader/] (level 3)
+00:00:00.059409   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxUsbCardReaderR3.so" (cb=106)
+00:00:00.059409 
+00:00:00.059410 [/PDM/USB/VBoxUsbWebcam/] (level 3)
+00:00:00.059410   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxUsbWebcamR3.so" (cb=102)
+00:00:00.059411 
+00:00:00.059411 [/TM/] (level 1)
+00:00:00.059412   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:00.059412 
+00:00:00.059413 ********************* End of CFGM dump **********************
+00:00:00.059489 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:00.059524 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x7
+00:00:00.060353 CPUM: Matched host CPU INTEL 0x6/0x3c/0x3 Intel_Core7_Haswell with CPU DB entry 'Intel Core i7-5600U' (INTEL 0x6/0x3d/0x4 Intel_Core7_Broadwell)
+00:00:00.060389 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:00.060396 CPUM: Microcode revision 0x00000027
+00:00:00.060403 CPUM: MSR/CPUID reconciliation insert: 0x0000010b IA32_FLUSH_CMD
+00:00:00.060406 CPUM: MSR fudge: 0x00000001 IA32_P5_MC_TYPE
+00:00:00.060408 CPUM: MSR fudge: 0x00000017 IA32_PLATFORM_ID
+00:00:00.060410 CPUM: MSR fudge: 0x0000001b IA32_APIC_BASE
+00:00:00.060412 CPUM: MSR fudge: 0x0000008b BIOS_SIGN
+00:00:00.060413 CPUM: MSR fudge: 0x000000fe IA32_MTRRCAP
+00:00:00.060415 CPUM: MSR fudge: 0x00000179 IA32_MCG_CAP
+00:00:00.060416 CPUM: MSR fudge: 0x0000017a IA32_MCG_STATUS
+00:00:00.060418 CPUM: MSR fudge: 0x000001a0 IA32_MISC_ENABLE
+00:00:00.060420 CPUM: MSR fudge: 0x000001d9 IA32_DEBUGCTL
+00:00:00.060421 CPUM: MSR fudge: 0x000001db P6_LAST_BRANCH_FROM_IP
+00:00:00.060423 CPUM: MSR fudge: 0x000001dc P6_LAST_BRANCH_TO_IP
+00:00:00.060424 CPUM: MSR fudge: 0x000001dd P6_LAST_INT_FROM_IP
+00:00:00.060426 CPUM: MSR fudge: 0x000001de P6_LAST_INT_TO_IP
+00:00:00.060428 CPUM: MSR fudge: 0x00000277 IA32_PAT
+00:00:00.060429 CPUM: MSR fudge: 0x000002ff IA32_MTRR_DEF_TYPE
+00:00:00.060431 CPUM: MSR fudge: 0x00000400 IA32_MCi_CTL_STATUS_ADDR_MISC
+00:00:00.060433 CPUM: MSR fudge: 0xc0000103 AMD64_TSC_AUX
+00:00:00.060445 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:00.060447 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:00.060448 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:00.060450 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:00.060452 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:00.060453 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:00.060638 PGM: Host paging mode: AMD64+PGE+NX
+00:00:00.060644 PGM: PGMPool: cMaxPages=768 (u64MaxPages=545)
+00:00:00.060645 PGM: pgmR3PoolInit: cMaxPages=0x300 cMaxUsers=0x600 cMaxPhysExts=0x600 fCacheEnable=true
+00:00:00.061013 PGM: /proc/sys/vm/max_map_count = 65530 (rc2=VWRN_TRAILING_CHARS); cGuessNeeded=16384
+00:00:00.062375 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=62 u32UpdateIntervalNS=16000000 enmUseTscDelta=2 (Practically Zero) fGetGipCpu=0x1b cCpus=4
+00:00:00.062381 TM: GIP - u64CpuHz=3 092 439 688 (0xb852e288)  SUPGetCpuHzFromGip => 3 092 439 688
+00:00:00.062384 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=3092439688(*) cErrors=0
+00:00:00.062387 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x2 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=3092313047(*) cErrors=0
+00:00:00.062389 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x4 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=3092316791(*) cErrors=0
+00:00:00.062391 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x6 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=3092311027(*) cErrors=0
+00:00:00.062405 TM:     cTSCTicksPerSecond=3 092 439 688 (0xb852e288) enmTSCMode=1 (VirtTSCEmulated)
+00:00:00.062406 TM: cTSCTicksPerSecondHost=3 092 439 688 (0xb852e288)
+00:00:00.062407 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:00.062864 EMR3Init: fIemExecutesAll=false fGuruOnTripleFault=true
+00:00:00.063166 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_Haswell aidxTargetCpuEflFlavour={1,0}
+00:00:00.063385 GIM: Using provider 'None' (Implementation version: 0)
+00:00:00.063393 GCM: Initialized (fixer bits: 0x0)
+00:00:00.093839 AIOMgr: Default manager type is 'Async'
+00:00:00.093856 AIOMgr: Default file backend is 'NonBuffered'
+00:00:00.093936 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:00.093939 BlkCache: Cache commit interval is 10000 ms
+00:00:00.093940 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:00.097913 PcBios: [SMP] BIOS with 2 CPUs
+00:00:00.097934 PcBios: Using the 386+ BIOS image.
+00:00:00.097994 PcBios: MPS table at 000e1300
+00:00:00.098664 PcBios: Using LAN ROM '/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/PXE-Intel.rom' with a size of 0xc000 bytes
+00:00:00.098768 PcBios: fCheckShutdownStatusForSoftReset=true  fClearShutdownStatusOnHardReset=true
+00:00:00.098793 SUP: Opened VBoxDDR0.r0 (/usr/lib/virtualbox/VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX.
+00:00:00.098972 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:00.099808 IOAPIC: Version=2.0 ChipType=ICH9
+00:00:00.099856 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.100024 VMMDev: cbDefaultBudget: 344 406 698 (14873aaa)
+00:00:00.102140 Shared Folders service loaded
+00:00:00.103126 Guest Control service loaded
+00:00:00.105268 VGA: Using the 386+ BIOS image.
+00:00:00.106686 PIIX3 ATA: LUN#0: no unit
+00:00:00.106695 PIIX3 ATA: LUN#1: no unit
+00:00:00.106746 PIIX3 ATA: LUN#2: no unit
+00:00:00.106748 PIIX3 ATA: LUN#3: no unit
+00:00:00.106826 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:00.106836 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:00.106898 VIRTIOSCSI0: Targets=1 Bootable=true (unimplemented) R0Enabled=true RCEnabled=false
+00:00:00.107657 VD: VDInit finished with VINF_SUCCESS
+00:00:00.108075 DrvVD: Flushes will be ignored
+00:00:00.108079 DrvVD: Async flushes will be passed to the disk
+00:00:00.112493 AIOMgr: Endpoint for file '/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk' (flags 000c0723) created successfully
+00:00:00.142609 VD: Opening the disk took 32552573 ns
+00:00:00.148349 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:00.148801 NAT: resolv.conf: nameserver 10.1.0.2
+00:00:00.148811 NAT: resolv.conf: nameserver 10.0.0.2
+00:00:00.148814 NAT: resolv.conf: ignoring "options timeout:1"
+00:00:00.148823 NAT: Adding domain name mimuw.edu.pl
+00:00:00.148825 NAT: DNS#0: 10.1.0.2
+00:00:00.148827 NAT: DNS#1: 10.0.0.2
+00:00:00.148866 NAT: Set redirect TCP 127.0.0.1:2200 -> 0.0.0.0:22
+00:00:00.148878 NAT: Set redirect TCP 0.0.0.0:2003 -> 0.0.0.0:22
+00:00:00.149563 IntNet#0: szNetwork={po-siknet} enmTrunkType=2 szTrunk={} fFlags=0x8000 cbRecv=325632 cbSend=196608 fIgnoreConnectFailure=false
+00:00:00.149859 PGM: The CPU physical address width is 39 bits
+00:00:00.149859 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000007fffffffff -> VINF_SUCCESS
+00:00:00.149859 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=false
+00:00:00.149859 VMM: Enabled thread-context hooks
+00:00:00.149859 VMM: RTThreadPreemptIsPending() can be trusted
+00:00:00.149859 VMM: Kernel preemption is possible
+00:00:00.149859 HM: fWorldSwitcher=0x30000 (fIbpbOnVmExit=false fIbpbOnVmEntry=false fL1dFlushOnVmEntry=false); fL1dFlushOnSched=true fMdsClearOnVmEntry=false
+00:00:00.149859 HM: Using VT-x implementation 3.0
+00:00:00.149859 HM: Max resume loops                  = 8192
+00:00:00.149859 HM: Host CR4                          = 0x1706e0
+00:00:00.149859 HM: Host EFER                         = 0xd01
+00:00:00.149859 HM: MSR_IA32_SMM_MONITOR_CTL          = 0x0
+00:00:00.149859 HM: Host DR6 zero'ed                  = 0xffff0ff0
+00:00:00.149859 HM: MSR_IA32_FEATURE_CONTROL          = 0x5
+00:00:00.149859 HM:   LOCK
+00:00:00.149859 HM:   VMXON
+00:00:00.149859 HM: MSR_IA32_VMX_BASIC                = 0xda040000000012
+00:00:00.149859 HM:   VMCS id                           = 0x12
+00:00:00.149859 HM:   VMCS size                         = 1024 bytes
+00:00:00.149859 HM:   VMCS physical address limit       = None
+00:00:00.149859 HM:   VMCS memory type                  = Write Back (WB)
+00:00:00.149859 HM:   Dual-monitor treatment support    = true
+00:00:00.149859 HM:   OUTS & INS instruction-info       = true
+00:00:00.149859 HM:   Supports true-capability MSRs     = true
+00:00:00.149859 HM:   VM-entry Xcpt error-code optional = false
+00:00:00.149859 HM: MSR_IA32_VMX_PINBASED_CTLS        = 0x7f00000016
+00:00:00.149859 HM:   EXT_INT_EXIT
+00:00:00.149859 HM:   NMI_EXIT
+00:00:00.149859 HM:   VIRTUAL_NMI
+00:00:00.149859 HM:   PREEMPT_TIMER
+00:00:00.149859 HM:   POSTED_INT (must be cleared)
+00:00:00.149859 HM: MSR_IA32_VMX_PROCBASED_CTLS       = 0xfff9fffe0401e172
+00:00:00.149859 HM:   INT_WINDOW_EXIT
+00:00:00.149859 HM:   USE_TSC_OFFSETTING
+00:00:00.149859 HM:   HLT_EXIT
+00:00:00.149859 HM:   INVLPG_EXIT
+00:00:00.149859 HM:   MWAIT_EXIT
+00:00:00.149859 HM:   RDPMC_EXIT
+00:00:00.149859 HM:   RDTSC_EXIT
+00:00:00.149859 HM:   CR3_LOAD_EXIT (must be set)
+00:00:00.149859 HM:   CR3_STORE_EXIT (must be set)
+00:00:00.149859 HM:   USE_TERTIARY_CTLS (must be cleared)
+00:00:00.149859 HM:   CR8_LOAD_EXIT
+00:00:00.149859 HM:   CR8_STORE_EXIT
+00:00:00.149859 HM:   USE_TPR_SHADOW
+00:00:00.149859 HM:   NMI_WINDOW_EXIT
+00:00:00.149859 HM:   MOV_DR_EXIT
+00:00:00.149859 HM:   UNCOND_IO_EXIT
+00:00:00.149859 HM:   USE_IO_BITMAPS
+00:00:00.149859 HM:   MONITOR_TRAP_FLAG
+00:00:00.149859 HM:   USE_MSR_BITMAPS
+00:00:00.149859 HM:   MONITOR_EXIT
+00:00:00.149859 HM:   PAUSE_EXIT
+00:00:00.149859 HM:   USE_SECONDARY_CTLS
+00:00:00.149859 HM: MSR_IA32_VMX_PROCBASED_CTLS2      = 0x7cff00000000
+00:00:00.149859 HM:   VIRT_APIC_ACCESS
+00:00:00.149859 HM:   EPT
+00:00:00.149859 HM:   DESC_TABLE_EXIT
+00:00:00.149859 HM:   RDTSCP
+00:00:00.149859 HM:   VIRT_X2APIC_MODE
+00:00:00.149859 HM:   VPID
+00:00:00.149859 HM:   WBINVD_EXIT
+00:00:00.149859 HM:   UNRESTRICTED_GUEST
+00:00:00.149859 HM:   APIC_REG_VIRT (must be cleared)
+00:00:00.149859 HM:   VIRT_INT_DELIVERY (must be cleared)
+00:00:00.149859 HM:   PAUSE_LOOP_EXIT
+00:00:00.149859 HM:   RDRAND_EXIT
+00:00:00.149859 HM:   INVPCID
+00:00:00.149859 HM:   VMFUNC
+00:00:00.149859 HM:   VMCS_SHADOWING
+00:00:00.149859 HM:   ENCLS_EXIT (must be cleared)
+00:00:00.149859 HM:   RDSEED_EXIT (must be cleared)
+00:00:00.149859 HM:   PML (must be cleared)
+00:00:00.149859 HM:   EPT_XCPT_VE (must be cleared)
+00:00:00.149859 HM:   CONCEAL_VMX_FROM_PT (must be cleared)
+00:00:00.149859 HM:   XSAVES_XRSTORS (must be cleared)
+00:00:00.149859 HM:   MODE_BASED_EPT_PERM (must be cleared)
+00:00:00.149859 HM:   SPP_EPT (must be cleared)
+00:00:00.149859 HM:   PT_EPT (must be cleared)
+00:00:00.149859 HM:   TSC_SCALING (must be cleared)
+00:00:00.149859 HM:   USER_WAIT_PAUSE (must be cleared)
+00:00:00.149859 HM:   ENCLV_EXIT (must be cleared)
+00:00:00.149859 HM: MSR_IA32_VMX_ENTRY_CTLS           = 0xffff000011ff
+00:00:00.149859 HM:   LOAD_DEBUG (must be set)
+00:00:00.149859 HM:   IA32E_MODE_GUEST
+00:00:00.149859 HM:   ENTRY_TO_SMM
+00:00:00.149859 HM:   DEACTIVATE_DUAL_MON
+00:00:00.149859 HM:   LOAD_PERF_MSR
+00:00:00.149859 HM:   LOAD_PAT_MSR
+00:00:00.149859 HM:   LOAD_EFER_MSR
+00:00:00.149859 HM:   LOAD_BNDCFGS_MSR (must be cleared)
+00:00:00.149859 HM:   CONCEAL_VMX_FROM_PT (must be cleared)
+00:00:00.149859 HM:   LOAD_RTIT_CTL_MSR (must be cleared)
+00:00:00.149859 HM:   LOAD_CET_STATE (must be cleared)
+00:00:00.149859 HM:   LOAD_PKRS_MSR (must be cleared)
+00:00:00.149859 HM: MSR_IA32_VMX_EXIT_CTLS            = 0x7fffff00036dff
+00:00:00.149859 HM:   SAVE_DEBUG (must be set)
+00:00:00.149859 HM:   HOST_ADDR_SPACE_SIZE
+00:00:00.149859 HM:   LOAD_PERF_MSR
+00:00:00.149859 HM:   ACK_EXT_INT
+00:00:00.149859 HM:   SAVE_PAT_MSR
+00:00:00.149859 HM:   LOAD_PAT_MSR
+00:00:00.149859 HM:   SAVE_EFER_MSR
+00:00:00.149859 HM:   LOAD_EFER_MSR
+00:00:00.149859 HM:   SAVE_PREEMPT_TIMER
+00:00:00.149859 HM:   CLEAR_BNDCFGS_MSR (must be cleared)
+00:00:00.149859 HM:   CONCEAL_VMX_FROM_PT (must be cleared)
+00:00:00.149859 HM:   CLEAR_RTIT_CTL_MSR (must be cleared)
+00:00:00.149859 HM:   LOAD_CET_STATE (must be cleared)
+00:00:00.149859 HM:   LOAD_PKRS_MSR (must be cleared)
+00:00:00.149859 HM: MSR_IA32_VMX_TRUE_PINBASED_CTLS   = 0x7f00000016
+00:00:00.149859 HM: MSR_IA32_VMX_TRUE_PROCBASED_CTLS  = 0xfff9fffe04006172
+00:00:00.149859 HM: MSR_IA32_VMX_TRUE_ENTRY_CTLS      = 0xffff000011fb
+00:00:00.149859 HM: MSR_IA32_VMX_TRUE_EXIT_CTLS       = 0x7fffff00036dfb
+00:00:00.149859 HM: MSR_IA32_VMX_MISC                 = 0x300481e5
+00:00:00.149859 HM:   PREEMPT_TIMER_TSC                 = 0x5
+00:00:00.149859 HM:   EXIT_SAVE_EFER_LMA                = true
+00:00:00.149859 HM:   ACTIVITY_STATES                   = 0x7 ( HLT SHUTDOWN SIPI_WAIT )
+00:00:00.149859 HM:   INTEL_PT                          = false
+00:00:00.149859 HM:   SMM_READ_SMBASE_MSR               = true
+00:00:00.149859 HM:   CR3_TARGET                        = 0x4
+00:00:00.149859 HM:   MAX_MSR                           = 0x0 ( 512 )
+00:00:00.149859 HM:   VMXOFF_BLOCK_SMI                  = true
+00:00:00.149859 HM:   VMWRITE_ALL                       = true
+00:00:00.149859 HM:   ENTRY_INJECT_SOFT_INT             = 0x0
+00:00:00.149859 HM:   MSEG_ID                           = 0x0
+00:00:00.149859 HM: MSR_IA32_VMX_VMCS_ENUM            = 0x2a
+00:00:00.149859 HM:   HIGHEST_IDX                       = 0x15
+00:00:00.149859 HM: MSR_IA32_VMX_EPT_VPID_CAP         = 0xf0106334141
+00:00:00.149859 HM:   RWX_X_ONLY
+00:00:00.149859 HM:   PAGE_WALK_LENGTH_4
+00:00:00.149859 HM:   MEMTYPE_UC
+00:00:00.149859 HM:   MEMTYPE_WB
+00:00:00.149859 HM:   PDE_2M
+00:00:00.149859 HM:   PDPTE_1G
+00:00:00.149859 HM:   INVEPT
+00:00:00.149859 HM:   ACCESS_DIRTY
+00:00:00.149859 HM:   INVEPT_SINGLE_CONTEXT
+00:00:00.149859 HM:   INVEPT_ALL_CONTEXTS
+00:00:00.149859 HM:   INVVPID
+00:00:00.149859 HM:   INVVPID_INDIV_ADDR
+00:00:00.149859 HM:   INVVPID_SINGLE_CONTEXT
+00:00:00.149859 HM:   INVVPID_ALL_CONTEXTS
+00:00:00.149859 HM:   INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:00.149859 HM: MSR_IA32_VMX_VMFUNC               = 0x1
+00:00:00.149859 HM:   EPTP_SWITCHING
+00:00:00.149859 HM: MSR_IA32_VMX_CR0_FIXED0           = 0x80000021
+00:00:00.149859 HM: MSR_IA32_VMX_CR0_FIXED1           = 0xffffffff
+00:00:00.149859 HM: MSR_IA32_VMX_CR4_FIXED0           = 0x2000
+00:00:00.149859 HM: MSR_IA32_VMX_CR4_FIXED1           = 0x1767ff
+00:00:00.149859 HM: Guest support: 32-bit and 64-bit
+00:00:00.149859 HM: Supports VMCS EFER fields         = true
+00:00:00.149859 HM: Enabled VMX
+00:00:00.149859 HM: Enabled nested paging
+00:00:00.149859 HM:   EPT flush type                  = Single context
+00:00:00.149859 HM: Enabled unrestricted guest execution
+00:00:00.149859 HM: Enabled large page support
+00:00:00.149859 HM: Enabled VPID
+00:00:00.149859 HM:   VPID flush type                 = Single context
+00:00:00.149859 HM: Enabled VMX-preemption timer (cPreemptTimerShift=5)
+00:00:00.149859 HM: VT-x/AMD-V init method: Global
+00:00:00.149859 EM: Exit history optimizations: enabled=true enabled-r0=true enabled-r0-no-preemption=false
+00:00:00.149859 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:00.149859 TMR3UtcNow: nsNow=1 714 147 571 310 389 000 nsPrev=0 -> cNsDelta=1 714 147 571 310 389 000 (offLag=0 offVirtualSync=0 offVirtualSyncGivenUp=0, NowAgain=1 714 147 571 310 389 000)
+00:00:00.149859 VMM: fUsePeriodicPreemptionTimers=false
+00:00:00.149859 CPUM: Logical host processors: 4 present, 4 max, 4 online, online mask: 000000000000000f
+00:00:00.149859 CPUM: Physical host cores: 4
+00:00:00.149859 ************************* CPUID dump ************************
+00:00:00.149859          Raw Standard CPUID Leaves
+00:00:00.149859      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.149859 Gst: 00000000/0000  0000000d 756e6547 6c65746e 49656e69
+00:00:00.149859 Hst:                0000000d 756e6547 6c65746e 49656e69
+00:00:00.149859 Gst: 00000001/0000  000306c3 00020800 56da2203 178bfbff
+00:00:00.149859 Hst:                000306c3 06100800 7ffafbff bfebfbff
+00:00:00.149859 Gst: 00000002/0000  76036301 00f0b6ff 00000000 00c10000
+00:00:00.149859 Hst:                76036301 00f0b6ff 00000000 00c10000
+00:00:00.149859 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 00000004/0000  04000121 01c0003f 0000003f 00000000
+00:00:00.149859 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:00.149859 Gst: 00000004/0001  04000122 01c0003f 0000003f 00000000
+00:00:00.149859 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:00.149859 Gst: 00000004/0002  04000143 01c0003f 000001ff 00000000
+00:00:00.149859 Hst:                1c004143 01c0003f 000001ff 00000000
+00:00:00.149859 Gst: 00000004/0003  04000163 03c0003f 00001fff 00000006
+00:00:00.149859 Hst:                1c03c163 03c0003f 00001fff 00000006
+00:00:00.149859 Gst: 00000004/0004  04000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 00000005/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000040 00000040 00000003 00042120
+00:00:00.149859 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000077 00000002 00000009 00000000
+00:00:00.149859 Gst: 00000007/0000  00000000 00002529 00000000 10000400
+00:00:00.149859 Hst:                00000000 000027ab 00000000 9c000400
+00:00:00.149859 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                07300803 00000000 00000000 00000603
+00:00:00.149859 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:00.149859 Hst:                00000001 00000001 00000100 00000006
+00:00:00.149859 Gst: 0000000b/0001  00000001 00000002 00000201 00000000
+00:00:00.149859 Hst:                00000004 00000004 00000201 00000006
+00:00:00.149859 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000002 00000006
+00:00:00.149859 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 0000000d/0000  00000007 00000340 00000340 00000000
+00:00:00.149859 Hst:                00000007 00000340 00000340 00000000
+00:00:00.149859 Gst: 0000000d/0001  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000001 00000000 00000000 00000000
+00:00:00.149859 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:00.149859 Hst:                00000100 00000240 00000000 00000000
+00:00:00.149859 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859                                Name: GenuineIntel
+00:00:00.149859                            Supports: 0x00000000-0x0000000d
+00:00:00.149859                              Family:  6 	Extended: 0 	Effective: 6
+00:00:00.149859                               Model: 12 	Extended: 3 	Effective: 60
+00:00:00.149859                            Stepping: 3
+00:00:00.149859                                Type: 0 (primary)
+00:00:00.149859                             APIC ID: 0x00
+00:00:00.149859                        Logical CPUs: 2
+00:00:00.149859                        CLFLUSH Size: 8
+00:00:00.149859                            Brand ID: 0x00
+00:00:00.149859 Features
+00:00:00.149859   Mnemonic - Description                                  = guest (host)
+00:00:00.149859   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:00.149859   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:00.149859   DE - Debugging extensions                               = 1 (1)
+00:00:00.149859   PSE - Page Size Extension                               = 1 (1)
+00:00:00.149859   TSC - Time Stamp Counter                                = 1 (1)
+00:00:00.149859   MSR - Model Specific Registers                          = 1 (1)
+00:00:00.149859   PAE - Physical Address Extension                        = 1 (1)
+00:00:00.149859   MCE - Machine Check Exception                           = 1 (1)
+00:00:00.149859   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:00.149859   APIC - APIC On-Chip                                     = 1 (1)
+00:00:00.149859   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:00.149859   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:00.149859   PGE - PTE Global Bit                                    = 1 (1)
+00:00:00.149859   MCA - Machine Check Architecture                        = 1 (1)
+00:00:00.149859   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:00.149859   PAT - Page Attribute Table                              = 1 (1)
+00:00:00.149859   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:00.149859   PSN - Processor Serial Number                           = 0 (0)
+00:00:00.149859   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:00.149859   DS - Debug Store                                        = 0 (1)
+00:00:00.149859   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:00.149859   MMX - Intel MMX Technology                              = 1 (1)
+00:00:00.149859   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:00.149859   SSE - SSE support                                       = 1 (1)
+00:00:00.149859   SSE2 - SSE2 support                                     = 1 (1)
+00:00:00.149859   SS - Self Snoop                                         = 0 (1)
+00:00:00.149859   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:00.149859   TM - Therm. Monitor                                     = 0 (1)
+00:00:00.149859   PBE - Pending Break Enabled                             = 0 (1)
+00:00:00.149859   SSE3 - SSE3 support                                     = 1 (1)
+00:00:00.149859   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:00.149859   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:00.149859   MONITOR - MONITOR/MWAIT instructions                    = 0 (1)
+00:00:00.149859   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:00.149859   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:00.149859   SMX - Safer Mode Extensions                             = 0 (1)
+00:00:00.149859   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:00.149859   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:00.149859   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:00.149859   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:00.149859   SDBG - Silicon Debug interface                          = 0 (1)
+00:00:00.149859   FMA - Fused Multiply Add extensions                     = 0 (1)
+00:00:00.149859   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:00.149859   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:00.149859   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:00.149859   PCID - Process Context Identifiers                      = 1 (1)
+00:00:00.149859   DCA - Direct Cache Access                               = 0 (0)
+00:00:00.149859   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:00.149859   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:00.149859   X2APIC - x2APIC support                                 = 0 (1)
+00:00:00.149859   MOVBE - MOVBE instruction                               = 1 (1)
+00:00:00.149859   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:00.149859   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:00.149859   AES - AES instructions                                  = 1 (1)
+00:00:00.149859   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:00.149859   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:00.149859   AVX - AVX support                                       = 1 (1)
+00:00:00.149859   F16C - 16-bit floating point conversion instructions    = 0 (1)
+00:00:00.149859   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:00.149859   HVP - Hypervisor Present (we're a guest)                = 0 (0)
+00:00:00.149859 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:00.149859   Mnemonic - Description                                  = guest (host)
+00:00:00.149859   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 1 (1)
+00:00:00.149859   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (1)
+00:00:00.149859   SGX - Supports Software Guard Extensions                = 0 (0)
+00:00:00.149859   BMI1 - Advanced Bit Manipulation extension 1            = 1 (1)
+00:00:00.149859   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:00.149859   AVX2 - Advanced Vector Extensions 2                     = 1 (1)
+00:00:00.149859   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:00.149859   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:00.149859   BMI2 - Advanced Bit Manipulation extension 2            = 1 (1)
+00:00:00.149859   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:00.149859   INVPCID - INVPCID instruction                           = 1 (1)
+00:00:00.149859   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:00.149859   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:00.149859   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 1 (1)
+00:00:00.149859   MPE - Intel Memory Protection Extensions                = 0 (0)
+00:00:00.149859   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:00.149859   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:00.149859   RDSEED - RDSEED instruction                             = 0 (0)
+00:00:00.149859   ADX - ADCX/ADOX instructions                            = 0 (0)
+00:00:00.149859   SMAP - Supervisor Mode Access Prevention                = 0 (0)
+00:00:00.149859   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 0 (0)
+00:00:00.149859   INTEL_PT - Intel Processor Trace                        = 0 (0)
+00:00:00.149859   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:00.149859   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:00.149859   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:00.149859   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:00.149859   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:00.149859   UMIP - User mode insturction prevention                 = 0 (0)
+00:00:00.149859   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:00.149859   OSPKE - CR4.PKU mirror                                  = 0 (0)
+00:00:00.149859   MAWAU - Value used by BNDLDX & BNDSTX                   = 0x0 (0x0)
+00:00:00.149859   RDPID - Read processor ID support                       = 0 (0)
+00:00:00.149859   SGX_LC - Supports SGX Launch Configuration              = 0 (0)
+00:00:00.149859   MD_CLEAR - Supports MDS related buffer clearing         = 1 (1)
+00:00:00.149859   IBRS_IBPB - IA32_SPEC_CTRL.IBRS and IA32_PRED_CMD.IBPB  = 0 (1)
+00:00:00.149859   STIBP - Supports IA32_SPEC_CTRL.STIBP                   = 0 (1)
+00:00:00.149859   FLUSH_CMD - Supports IA32_FLUSH_CMD                     = 1 (1)
+00:00:00.149859   ARCHCAP - Supports IA32_ARCH_CAP                        = 0 (0)
+00:00:00.149859   CORECAP - Supports IA32_CORE_CAP                        = 0 (0)
+00:00:00.149859   SSBD - Supports IA32_SPEC_CTRL.SSBD                     = 0 (1)
+00:00:00.149859 Processor Extended State Enumeration (leaf 0xd):
+00:00:00.149859    XSAVE area cur/max size by XCR0, guest: 0x340/0x340
+00:00:00.149859     XSAVE area cur/max size by XCR0, host: 0x340/0x340
+00:00:00.149859                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:00.149859                     Valid XCR0 bits, host: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:00.149859                     XSAVE features, guest:
+00:00:00.149859                      XSAVE features, host: XSAVEOPT
+00:00:00.149859       XSAVE area cur size XCR0|XSS, guest: 0x0
+00:00:00.149859        XSAVE area cur size XCR0|XSS, host: 0x0
+00:00:00.149859                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:00.149859                 Valid IA32_XSS bits, host: 0x00000000`00000000
+00:00:00.149859   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.149859   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.149859          Raw Extended CPUID Leaves
+00:00:00.149859      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.149859 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:00.149859 Hst:                80000008 00000000 00000000 00000000
+00:00:00.149859 Gst: 80000001/0000  00000000 00000000 00000021 28100800
+00:00:00.149859 Hst:                00000000 00000000 00000021 2c100800
+00:00:00.149859 Gst: 80000002/0000  65746e49 2952286c 6f655820 2952286e
+00:00:00.149859 Hst:                65746e49 2952286c 6f655820 2952286e
+00:00:00.149859 Gst: 80000003/0000  55504320 2d334520 30323231 20337620
+00:00:00.149859 Hst:                55504320 2d334520 30323231 20337620
+00:00:00.149859 Gst: 80000004/0000  2e332040 48473031 0000007a 00000000
+00:00:00.149859 Hst:                2e332040 48473031 0000007a 00000000
+00:00:00.149859 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000000
+00:00:00.149859 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:00.149859 Hst:                00000000 00000000 01006040 00000000
+00:00:00.149859 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:00.149859 Hst:                00000000 00000000 00000000 00000100
+00:00:00.149859 Gst: 80000008/0000  00003027 00000000 00000000 00000000
+00:00:00.149859 Hst:                00003027 00000000 00000000 00000000
+00:00:00.149859 Ext Name:                        
+00:00:00.149859 Ext Supports:                    0x80000000-0x80000008
+00:00:00.149859 Family:                          0  	Extended: 0 	Effective: 0
+00:00:00.149859 Model:                           0  	Extended: 0 	Effective: 0
+00:00:00.149859 Stepping:                        0
+00:00:00.149859 Brand ID:                        0x000
+00:00:00.149859 Ext Features
+00:00:00.149859   Mnemonic - Description                                  = guest (host)
+00:00:00.149859   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:00.149859   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:00.149859   DE - Debugging extensions                               = 0 (0)
+00:00:00.149859   PSE - Page Size Extension                               = 0 (0)
+00:00:00.149859   TSC - Time Stamp Counter                                = 0 (0)
+00:00:00.149859   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:00.149859   PAE - Physical Address Extension                        = 0 (0)
+00:00:00.149859   MCE - Machine Check Exception                           = 0 (0)
+00:00:00.149859   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:00.149859   APIC - APIC On-Chip                                     = 0 (0)
+00:00:00.149859   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:00.149859   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:00.149859   PGE - PTE Global Bit                                    = 0 (0)
+00:00:00.149859   MCA - Machine Check Architecture                        = 0 (0)
+00:00:00.149859   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:00.149859   PAT - Page Attribute Table                              = 0 (0)
+00:00:00.149859   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:00.149859   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:00.149859   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:00.149859   MMX - Intel MMX Technology                              = 0 (0)
+00:00:00.149859   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:00.149859   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:00.149859   Page1GB - 1 GB large page                               = 0 (1)
+00:00:00.149859   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:00.149859   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:00.149859   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:00.149859   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:00.149859   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:00.149859   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:00.149859   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:00.149859   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:00.149859   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:00.149859   ABM - AMD Advanced Bit Manipulation                     = 1 (1)
+00:00:00.149859   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:00.149859   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:00.149859   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 0 (0)
+00:00:00.149859   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:00.149859   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:00.149859   XOP - Extended Operation support                        = 0 (0)
+00:00:00.149859   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:00.149859   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:00.149859   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:00.149859   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:00.149859   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:00.149859   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:00.149859   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:00.149859   PRFEXTCORE - Performance Counter Extensions support     = 0 (0)
+00:00:00.149859   PRFEXTNB - NB Performance Counter Extensions support    = 0 (0)
+00:00:00.149859   DATABPEXT - Data-access Breakpoint Extension            = 0 (0)
+00:00:00.149859   PERFTSC - Performance Time Stamp Counter                = 0 (0)
+00:00:00.149859   PCX_L2I - L2I/L3 Performance Counter Extensions         = 0 (0)
+00:00:00.149859   MWAITX - MWAITX and MONITORX instructions               = 0 (0)
+00:00:00.149859 Full Name:                       "Intel(R) Xeon(R) CPU E3-1220 v3 @ 3.10GHz"
+00:00:00.149859 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:00.149859 TLB 2/4M Data:                   res0     0 entries
+00:00:00.149859 TLB 4K Instr/Uni:                res0     0 entries
+00:00:00.149859 TLB 4K Data:                     res0     0 entries
+00:00:00.149859 L1 Instr Cache Line Size:        0 bytes
+00:00:00.149859 L1 Instr Cache Lines Per Tag:    0
+00:00:00.149859 L1 Instr Cache Associativity:    res0  
+00:00:00.149859 L1 Instr Cache Size:             0 KB
+00:00:00.149859 L1 Data Cache Line Size:         0 bytes
+00:00:00.149859 L1 Data Cache Lines Per Tag:     0
+00:00:00.149859 L1 Data Cache Associativity:     res0  
+00:00:00.149859 L1 Data Cache Size:              0 KB
+00:00:00.149859 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:00.149859 L2 TLB 2/4M Data:                off       0 entries
+00:00:00.149859 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:00.149859 L2 TLB 4K Data:                  off       0 entries
+00:00:00.149859 L2 Cache Line Size:              0 bytes
+00:00:00.149859 L2 Cache Lines Per Tag:          0
+00:00:00.149859 L2 Cache Associativity:          off   
+00:00:00.149859 L2 Cache Size:                   0 KB
+00:00:00.149859   TS - Temperature Sensor                                 = 0 (0)
+00:00:00.149859   FID - Frequency ID control                              = 0 (0)
+00:00:00.149859   VID - Voltage ID control                                = 0 (0)
+00:00:00.149859   TscInvariant - Invariant Time Stamp Counter             = 1 (1)
+00:00:00.149859   CBP - Core Performance Boost                            = 0 (0)
+00:00:00.149859   EffFreqRO - Read-only Effective Frequency Interface     = 0 (0)
+00:00:00.149859   ProcFdbkIf - Processor Feedback Interface               = 0 (0)
+00:00:00.149859   ProcPwrRep - Core power reporting interface support     = 0 (0)
+00:00:00.149859 Physical Address Width:          39 bits
+00:00:00.149859 Virtual Address Width:           48 bits
+00:00:00.149859 Guest Physical Address Width:    0 bits
+00:00:00.149859 Physical Core Count:             1
+00:00:00.149859 
+00:00:00.149859 ******************** End of CPUID dump **********************
+00:00:00.149859 *********************** VT-x features ***********************
+00:00:00.149859 Nested hardware virtualization - VMX features
+00:00:00.149859   Mnemonic - Description                                  = guest (host)
+00:00:00.149859   VMX - Virtual-Machine Extensions                        = 0 (1)
+00:00:00.149859   InsOutInfo - INS/OUTS instruction info.                 = 0 (1)
+00:00:00.149859   ExtIntExit - External interrupt exiting                 = 0 (1)
+00:00:00.149859   NmiExit - NMI exiting                                   = 0 (1)
+00:00:00.149859   VirtNmi - Virtual NMIs                                  = 0 (1)
+00:00:00.149859   PreemptTimer - VMX preemption timer                     = 0 (1)
+00:00:00.149859   PostedInt - Posted interrupts                           = 0 (0)
+00:00:00.149859   IntWindowExit - Interrupt-window exiting                = 0 (1)
+00:00:00.149859   TscOffsetting - TSC offsetting                          = 0 (1)
+00:00:00.149859   HltExit - HLT exiting                                   = 0 (1)
+00:00:00.149859   InvlpgExit - INVLPG exiting                             = 0 (1)
+00:00:00.149859   MwaitExit - MWAIT exiting                               = 0 (1)
+00:00:00.149859   RdpmcExit - RDPMC exiting                               = 0 (1)
+00:00:00.149859   RdtscExit - RDTSC exiting                               = 0 (1)
+00:00:00.149859   Cr3LoadExit - CR3-load exiting                          = 0 (1)
+00:00:00.149859   Cr3StoreExit - CR3-store exiting                        = 0 (1)
+00:00:00.149859   TertiaryExecCtls - Activate tertiary controls           = 0 (0)
+00:00:00.149859   Cr8LoadExit  - CR8-load exiting                         = 0 (1)
+00:00:00.149859   Cr8StoreExit - CR8-store exiting                        = 0 (1)
+00:00:00.149859   UseTprShadow - Use TPR shadow                           = 0 (1)
+00:00:00.149859   NmiWindowExit - NMI-window exiting                      = 0 (1)
+00:00:00.149859   MovDRxExit - Mov-DR exiting                             = 0 (1)
+00:00:00.149859   UncondIoExit - Unconditional I/O exiting                = 0 (1)
+00:00:00.149859   UseIoBitmaps - Use I/O bitmaps                          = 0 (1)
+00:00:00.149859   MonitorTrapFlag - Monitor Trap Flag                     = 0 (1)
+00:00:00.149859   UseMsrBitmaps - MSR bitmaps                             = 0 (1)
+00:00:00.149859   MonitorExit - MONITOR exiting                           = 0 (1)
+00:00:00.149859   PauseExit - PAUSE exiting                               = 0 (1)
+00:00:00.149859   SecondaryExecCtl - Activate secondary controls          = 0 (1)
+00:00:00.149859   VirtApic - Virtualize-APIC accesses                     = 0 (1)
+00:00:00.149859   Ept - Extended Page Tables                              = 0 (1)
+00:00:00.149859   DescTableExit - Descriptor-table exiting                = 0 (1)
+00:00:00.149859   Rdtscp - Enable RDTSCP                                  = 0 (1)
+00:00:00.149859   VirtX2ApicMode - Virtualize-x2APIC mode                 = 0 (1)
+00:00:00.149859   Vpid - Enable VPID                                      = 0 (1)
+00:00:00.149859   WbinvdExit - WBINVD exiting                             = 0 (1)
+00:00:00.149859   UnrestrictedGuest - Unrestricted guest                  = 0 (1)
+00:00:00.149859   ApicRegVirt - APIC-register virtualization              = 0 (0)
+00:00:00.149859   VirtIntDelivery - Virtual-interrupt delivery            = 0 (0)
+00:00:00.149859   PauseLoopExit - PAUSE-loop exiting                      = 0 (1)
+00:00:00.149859   RdrandExit - RDRAND exiting                             = 0 (1)
+00:00:00.149859   Invpcid - Enable INVPCID                                = 0 (1)
+00:00:00.149859   VmFuncs - Enable VM Functions                           = 0 (1)
+00:00:00.149859   VmcsShadowing - VMCS shadowing                          = 0 (1)
+00:00:00.149859   RdseedExiting - RDSEED exiting                          = 0 (0)
+00:00:00.149859   PML - Page-Modification Log (PML)                       = 0 (0)
+00:00:00.149859   EptVe - EPT violations can cause #VE                    = 0 (0)
+00:00:00.149859   ConcealVmxFromPt - Conceal VMX from Processor Trace     = 0 (0)
+00:00:00.149859   XsavesXRstors - Enable XSAVES/XRSTORS                   = 0 (0)
+00:00:00.149859   ModeBasedExecuteEpt - Mode-based execute permissions    = 0 (0)
+00:00:00.149859   SppEpt - Sub-page page write permissions for EPT        = 0 (0)
+00:00:00.149859   PtEpt - Processor Trace address' translatable by EPT    = 0 (0)
+00:00:00.149859   UseTscScaling - Use TSC scaling                         = 0 (0)
+00:00:00.149859   UserWaitPause - Enable TPAUSE, UMONITOR and UMWAIT      = 0 (0)
+00:00:00.149859   EnclvExit - ENCLV exiting                               = 0 (0)
+00:00:00.149859   LoadIwKeyExit - LOADIWKEY exiting                       = 0 (0)
+00:00:00.149859   EntryLoadDebugCtls - Load debug controls on VM-entry    = 0 (1)
+00:00:00.149859   Ia32eModeGuest - IA-32e mode guest                      = 0 (1)
+00:00:00.149859   EntryLoadEferMsr - Load IA32_EFER MSR on VM-entry       = 0 (1)
+00:00:00.149859   EntryLoadPatMsr - Load IA32_PAT MSR on VM-entry         = 0 (1)
+00:00:00.149859   ExitSaveDebugCtls - Save debug controls on VM-exit      = 0 (1)
+00:00:00.149859   HostAddrSpaceSize - Host address-space size             = 0 (1)
+00:00:00.149859   ExitAckExtInt - Acknowledge interrupt on VM-exit        = 0 (1)
+00:00:00.149859   ExitSavePatMsr - Save IA32_PAT MSR on VM-exit           = 0 (1)
+00:00:00.149859   ExitLoadPatMsr - Load IA32_PAT MSR on VM-exit           = 0 (1)
+00:00:00.149859   ExitSaveEferMsr - Save IA32_EFER MSR on VM-exit         = 0 (1)
+00:00:00.149859   ExitLoadEferMsr - Load IA32_EFER MSR on VM-exit         = 0 (1)
+00:00:00.149859   SavePreemptTimer - Save VMX-preemption timer            = 0 (1)
+00:00:00.149859   SecondaryExitCtls - Secondary VM-exit controls          = 0 (0)
+00:00:00.149859   ExitSaveEferLma - Save IA32_EFER.LMA on VM-exit         = 0 (1)
+00:00:00.149859   IntelPt - Intel PT (Processor Trace) in VMX operation   = 0 (0)
+00:00:00.149859   VmwriteAll - VMWRITE to any supported VMCS field        = 0 (1)
+00:00:00.149859   EntryInjectSoftInt - Inject softint. with 0-len instr.  = 0 (0)
+00:00:00.149859 
+00:00:00.149859 ******************* End of VT-x features ********************
+00:00:00.149859 VMEmt: Halt method global1 (5)
+00:00:00.149859 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=2000
+00:00:00.149859 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:00.154443 SharedFolders host service: Adding host mapping
+00:00:00.154449     Host path '/home/students/mat/b/bz430362/Pulpit/VM2_client', map name 'vagrant', writable, automount=false, automntpnt=, create_symlinks=true, missing=false
+00:00:00.155170 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:00.155213 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:00.155218 AIOMgr:     /home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk
+00:00:00.155235 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155245 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155254 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155263 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155276 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155302 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155312 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155381 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155391 virtioCoreVirtqAvailBufCount: Driver not ready
+00:00:00.155414 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:00.155420 Console: Machine state changed to 'Running'
+00:00:00.155775 VBoxHeadless: starting event loop
+00:00:00.156211 VMMDev: Guest Log: BIOS: VirtualBox 7.0.10
+00:00:00.156255 PCI: Setting up resources and interrupts
+00:00:00.156376 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.183083 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:00.183294 VMMDev: Guest Log: CPUID EDX: 0x178bfbff
+00:00:00.185327 VMMDev: Guest Log: BIOS: SCSI 0-ID#0: LCHS=2548/255/63 0x0000000002710000 sectors
+00:00:00.186353 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:00.211251 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007f83d8141000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:00:00.710323 NAT: Old socket recv size: 128KB
+00:00:00.710331 NAT: Old socket send size: 128KB
+00:00:02.679473 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:02.690083 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:02.690770 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0032
+00:00:02.694041 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:00:02.964352 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007f83d8141000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:00:09.445940 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:09.563804 PIT: mode=2 count=0x12a5 (4773) - 249.98 Hz (ch=0)
+00:00:09.702190 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:09.879292 IEM: rdmsr(0xc0011029) -> #GP(0)
+00:00:11.643313 VMMDev: Guest Additions information report: Version 7.0.10 r158379 '7.0.10'
+00:00:11.643340 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:00:11.643411 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:11.643453 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false)
+00:00:11.643474 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:00:11.643501 VMMDev: Guest Log: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+00:00:11.643578 VMMDev: Guest Log: Host supports full mouse state reporting, switching to extended mouse integration protocol
+00:00:11.648101 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:11.650031 VMMDev: Guest Log: vboxguest: Successfully loaded version 7.0.10 r158379
+00:00:11.650053 VMMDev: Guest Log: vboxguest: misc device minor 124, IRQ 20, I/O port d040, MMIO at 00000000f0400000 (size 0x400000)
+00:00:11.908385 IEM: rdmsr(0x64d) -> #GP(0)
+00:00:12.000805 NAT: IPv6 not supported
+00:00:12.001698 NAT: resolv.conf: nameserver 10.1.0.2
+00:00:12.001710 NAT: resolv.conf: nameserver 10.0.0.2
+00:00:12.001713 NAT: resolv.conf: ignoring "options timeout:1"
+00:00:12.001724 NAT: Adding domain name mimuw.edu.pl
+00:00:12.001726 NAT: DNS#0: 10.1.0.2
+00:00:12.001729 NAT: DNS#1: 10.0.0.2
+00:00:12.001732 NAT: DHCP offered IP address 10.0.2.15
+00:00:12.001977 NAT: DHCP offered IP address 10.0.2.15
+00:00:12.511955 VMMDev: Guest Log: 16:06:22.145300 main     VBoxService 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:16) release log
+00:00:12.511968 VMMDev: Guest Log: 16:06:22.145303 main     Log opened 2024-04-26T16:06:22.145292000Z
+00:00:12.512018 VMMDev: Guest Log: 16:06:22.145382 main     OS Product: Linux
+00:00:12.512043 VMMDev: Guest Log: 16:06:22.145409 main     OS Release: 6.1.0-18-cloud-amd64
+00:00:12.512065 VMMDev: Guest Log: 16:06:22.145432 main     OS Version: #1 SMP PREEMPT_DYNAMIC Debian 6.1.76-1 (2024-02-01)
+00:00:12.512088 VMMDev: Guest Log: 16:06:22.145452 main     Executable: /opt/VBoxGuestAdditions-7.0.10/sbin/VBoxService
+00:00:12.512091 VMMDev: Guest Log: 16:06:22.145453 main     Process ID: 568
+00:00:12.512093 VMMDev: Guest Log: 16:06:22.145455 main     Package type: LINUX_64BITS_GENERIC
+00:00:12.514960 VMMDev: Guest Log: 16:06:22.148307 main     7.0.10 r158379 started. Verbose level = 0
+00:00:12.516093 VMMDev: Guest Log: 16:06:22.149431 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+00:00:12.516197 Guest Control: GUEST_MSG_REPORT_FEATURES: 0xf, 0x8000000000000000
+00:00:26.730902 NAT: DHCP released IP address 10.0.2.15
+00:00:26.923394 NAT: DHCP offered IP address 10.0.2.15
+00:00:26.925217 NAT: DHCP offered IP address 10.0.2.15
+00:00:30.634326 VMMDev: Guest Log: vboxsf: g_fHostFeatures=0x8000000f g_fSfFeatures=0x1 g_uSfLastFunction=29
+00:00:30.634636 VMMDev: Guest Log: vboxsf: Successfully loaded version 7.0.10 r158379 on 6.1.0-18-cloud-amd64 (LINUX_VERSION_CODE=0x6014c)
+00:31:58.702591 I/O cache: Error while writing entry at offset 386924544 (1310720 bytes) to medium "virtio-scsi-0-0" (rc=VERR_DISK_FULL)
+00:31:58.702746 VM: Raising runtime error 'BLKCACHE_IOERR' (fFlags=0x6)
+00:31:58.702817 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:31:58.702962 PDMR3Suspend: after     0 ms, 1 loops: 1 async tasks - virtio-scsi/0
+00:31:58.704633 VD#0: Host disk full
+00:31:58.717722 AIOMgr: Endpoint for file '/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk' (flags 000c0781) created successfully
+00:31:58.755379 PDMR3Suspend: 52 483 066 ns run time
+00:31:58.755411 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:31:58.755430 Console: Machine state changed to 'Paused'
+00:31:58.756285 VM: Raising runtime error 'DrvVD_DISKFULL' (fFlags=0x6)
+00:31:58.756314 Console: VM runtime error: fatal=false, errorID=BLKCACHE_IOERR message="The I/O cache encountered an error while updating data in medium "virtio-scsi-0-0" (rc=VERR_DISK_FULL). Make sure there is enough free space on the disk and that the disk is                                                                                                                                                                                                                                                    00:53:00.273924 AIOMgr: Endpoint for file '/home/students/mat/b/bz430362/VirtualBox VMs/ppcb--vm2/SiKVM-disk001.vmdk' (flags 000c0723) created successfully
+00:53:00.301240 VD#0: Write request was active for 1261 seconds
+00:53:00.302475 virtioCoreVirtqAvailBufCount: virtq: requestq<2> not enabled
+00:53:00.302514 virtioCoreVirtqAvailBufCount: virtq: requestq<3> not enabled
+00:53:00.302729 Changing the VM state from 'RESUMING' to 'RUNNING'
+00:53:00.302740 Console: Machine state changed to 'Running'
+00:53:00.347664 VD#0: Write request was active for 1261 seconds
+00:53:00.378652 VD#0: Write request was active for 1261 seconds
+00:53:00.482093 VD#0: Write request was active for 1261 seconds
+00:53:00.482356 VD#0: Write request was active for 1261 seconds
+00:53:00.482619 VD#0: Write request was active for 1261 seconds
+00:53:00.482861 VD#0: Write request was active for 1261 seconds
+00:53:00.601733 VD#0: Write request was active for 1261 seconds
+02:13:31.996549 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:13:32.253514 VMMDev: GuestHeartBeat: Guest is alive (gone 4 349 954 536 ns)
+02:15:00.725844 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:15:17.772639 VMMDev: GuestHeartBeat: Guest is alive (gone 21 791 333 250 ns)
+02:15:25.908196 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 7 seconds ago
+02:15:27.165385 VMMDev: GuestHeartBeat: Guest is alive (gone 9 392 753 345 ns)
+02:15:32.530536 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:15:33.882073 VMMDev: GuestHeartBeat: Guest is alive (gone 6 604 207 135 ns)
+02:15:40.226374 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:15:42.125408 VMMDev: GuestHeartBeat: Guest is alive (gone 8 135 295 165 ns)
+02:16:04.816955 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 22 seconds ago
+02:16:17.438453 TM: Giving up catch-up attempt at a 61 900 588 590 ns lag; new total: 61 900 588 590 ns
+02:16:24.061582 VMMDev: GuestHeartBeat: Guest is alive (gone 42 156 689 330 ns)
+02:16:29.295081 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:16:38.021189 VMMDev: GuestHeartBeat: Guest is alive (gone 13 865 497 676 ns)
+02:16:42.453002 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:16:43.003519 VMMDev: GuestHeartBeat: Guest is alive (gone 4 953 194 765 ns)
+02:16:50.936110 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 7 seconds ago
+02:17:12.066119 VMMDev: GuestHeartBeat: Guest is alive (gone 28 434 760 868 ns)
+02:17:27.063951 TM: Giving up catch-up attempt at a 62 929 373 059 ns lag; new total: 124 829 961 649 ns
+02:17:33.469689 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 14 seconds ago
+02:18:09.980716 VMMDev: GuestHeartBeat: Guest is alive (gone 50 945 124 319 ns)
+02:18:16.531832 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:18:29.627308 VMMDev: GuestHeartBeat: Guest is alive (gone 19 646 593 801 ns)
+02:18:37.707099 TM: Giving up catch-up attempt at a 63 704 397 628 ns lag; new total: 188 534 359 277 ns
+02:18:38.816049 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 9 seconds ago
+02:18:52.126934 AsyncCompletion: Task 0x007f83db49d380 completed after 13 seconds
+02:19:00.280684 AsyncCompletion: Task 0x007f83db49d8c0 completed after 20 seconds
+02:19:04.785218 AsyncCompletion: Task 0x007f83db49d880 completed after 25 seconds
+02:19:05.049226 VD#0: Read request was active for 25 seconds
+02:19:11.301414 AsyncCompletion: Task 0x007f83db49d340 completed after 32 seconds
+02:19:37.188438 TM: Giving up catch-up attempt at a 61 734 077 731 ns lag; new total: 250 268 437 008 ns
+02:19:56.539923 VMMDev: GuestHeartBeat: Guest is alive (gone 86 912 613 766 ns)
+02:20:12.174083 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 15 seconds ago
+02:20:34.917843 VMMDev: GuestHeartBeat: Guest is alive (gone 38 377 929 505 ns)
+02:20:41.636307 TM: Giving up catch-up attempt at a 60 529 243 560 ns lag; new total: 310 797 680 568 ns
+02:20:41.636337 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:21:08.788902 VMMDev: GuestHeartBeat: Guest is alive (gone 33 833 882 541 ns)
+02:21:13.777744 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:21:20.947281 VMMDev: GuestHeartBeat: Guest is alive (gone 12 140 011 950 ns)
+02:21:26.181842 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:21:32.455928 VMMDev: GuestHeartBeat: Guest is alive (gone 11 524 767 460 ns)
+02:21:38.244079 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:21:47.205910 VMMDev: GuestHeartBeat: Guest is alive (gone 8 979 608 838 ns)
+02:21:51.546611 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:21:52.682499 TM: Giving up catch-up attempt at a 60 083 832 918 ns lag; new total: 370 881 513 486 ns
+02:21:53.560090 VMMDev: GuestHeartBeat: Guest is alive (gone 6 269 782 157 ns)
+02:21:58.338530 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:22:01.930386 VMMDev: GuestHeartBeat: Guest is alive (gone 8 378 535 310 ns)
+02:22:07.588114 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:22:13.973898 VMMDev: GuestHeartBeat: Guest is alive (gone 11 992 310 351 ns)
+02:22:19.359482 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:22:31.703968 VMMDev: GuestHeartBeat: Guest is alive (gone 17 797 669 416 ns)
+02:22:36.127631 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:22:43.975068 VMMDev: GuestHeartBeat: Guest is alive (gone 12 236 393 359 ns)
+02:22:49.076471 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:22:55.545739 VMMDev: GuestHeartBeat: Guest is alive (gone 11 592 704 969 ns)
+02:23:00.582614 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:23:04.879185 TM: Giving up catch-up attempt at a 60 675 362 426 ns lag; new total: 431 556 875 912 ns
+02:23:08.131302 VMMDev: GuestHeartBeat: Guest is alive (gone 12 602 737 453 ns)
+02:23:15.493716 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:23:29.097244 VMMDev: GuestHeartBeat: Guest is alive (gone 17 855 637 349 ns)
+02:23:37.484279 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:23:40.840530 VMMDev: GuestHeartBeat: Guest is alive (gone 7 548 607 188 ns)
+02:23:54.685223 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 8 seconds ago
+02:23:55.998078 VMMDev: GuestHeartBeat: Guest is alive (gone 9 412 188 149 ns)
+02:24:03.119530 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 7 seconds ago
+02:24:11.135854 VMMDev: GuestHeartBeat: Guest is alive (gone 15 158 862 731 ns)
+02:24:18.164271 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:24:23.473407 VMMDev: GuestHeartBeat: Guest is alive (gone 10 203 972 088 ns)
+02:24:25.973933 TM: Giving up catch-up attempt at a 61 851 665 332 ns lag; new total: 493 408 541 244 ns
+02:24:30.338963 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:24:35.792912 VMMDev: GuestHeartBeat: Guest is alive (gone 12 355 143 205 ns)
+02:24:40.295996 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:24:42.847655 VMMDev: GuestHeartBeat: Guest is alive (gone 6 882 454 653 ns)
+02:24:48.933427 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:24:54.219113 VMMDev: GuestHeartBeat: Guest is alive (gone 11 455 446 734 ns)
+02:24:59.676654 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:25:09.794866 VMMDev: GuestHeartBeat: Guest is alive (gone 15 724 673 654 ns)
+02:25:17.811987 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 8 seconds ago
+02:25:17.830647 VMMDev: GuestHeartBeat: Guest is alive (gone 8 035 784 654 ns)
+02:25:25.038497 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 7 seconds ago
+02:25:42.462232 TM: Giving up catch-up attempt at a 64 819 803 068 ns lag; new total: 558 228 344 312 ns
+02:26:45.923897 VMMDev: GuestHeartBeat: Guest is alive (gone 88 093 159 585 ns)
+02:26:45.923942 TM: Giving up catch-up attempt at a 60 003 217 057 ns lag; new total: 618 231 561 369 ns
+02:26:58.436163 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 11 seconds ago
+02:26:58.451521 VMMDev: GuestHeartBeat: Guest is alive (gone 12 527 631 769 ns)
+02:27:21.995546 AsyncCompletion: Task 0x007f83db49d980 completed after 10 seconds
+02:27:26.647829 AsyncCompletion: Task 0x007f83db49db40 completed after 15 seconds
+02:27:29.889832 AsyncCompletion: Task 0x007f83db49d300 completed after 22 seconds
+02:27:29.889837 AsyncCompletion: Task 0x007f83db49d6c0 completed after 22 seconds
+02:27:29.889839 AsyncCompletion: Task 0x007f83db49d080 completed after 22 seconds
+02:27:29.904043 AsyncCompletion: Task 0x007f83db49d8c0 completed after 22 seconds
+02:27:29.904053 AsyncCompletion: Task 0x007f83db49d2c0 completed after 22 seconds
+02:27:29.904057 AsyncCompletion: Task 0x007f83db49d380 completed after 22 seconds
+02:27:29.904059 AsyncCompletion: Task 0x007f83db49d440 completed after 22 seconds
+02:27:29.904062 AsyncCompletion: Task 0x007f83db49d340 completed after 22 seconds
+02:27:29.904065 AsyncCompletion: Task 0x007f83db49d880 completed after 22 seconds
+02:27:29.904095 AsyncCompletion: Task 0x007f83db49d5c0 completed after 22 seconds
+02:27:29.904103 AsyncCompletion: Task 0x007f83db49d580 completed after 22 seconds
+02:27:29.904106 AsyncCompletion: Task 0x007f83db49d9c0 completed after 22 seconds
+02:27:29.904109 AsyncCompletion: Task 0x007f83db49d280 completed after 22 seconds
+02:27:29.904112 AsyncCompletion: Task 0x007f83db49d700 completed after 22 seconds
+02:27:29.904119 AsyncCompletion: Task 0x007f83db49d480 completed after 22 seconds
+02:27:29.904123 AsyncCompletion: Task 0x007f83db49d7c0 completed after 22 seconds
+02:27:29.904134 AsyncCompletion: Task 0x007f83db49d140 completed after 22 seconds
+02:27:29.904137 AsyncCompletion: Task 0x007f83db49d640 completed after 22 seconds
+02:27:29.904147 AsyncCompletion: Task 0x007f83db49d0c0 completed after 22 seconds
+02:27:29.904150 AsyncCompletion: Task 0x007f83db49d400 completed after 22 seconds
+02:27:29.904358 AsyncCompletion: Task 0x007f83db49da80 completed after 22 seconds
+02:27:29.904363 AsyncCompletion: Task 0x007f83db49d180 completed after 22 seconds
+02:27:29.904366 AsyncCompletion: Task 0x007f83db49d940 completed after 22 seconds
+02:27:29.904369 AsyncCompletion: Task 0x007f83db49d800 completed after 22 seconds
+02:27:29.904372 AsyncCompletion: Task 0x007f83db49dac0 completed after 22 seconds
+02:27:29.904375 AsyncCompletion: Task 0x007f83db49d1c0 completed after 22 seconds
+02:27:29.904382 AsyncCompletion: Task 0x007f83db49d740 completed after 22 seconds
+02:27:29.904386 AsyncCompletion: Task 0x007f83db49da40 completed after 22 seconds
+02:27:29.904389 AsyncCompletion: Task 0x007f83db49d100 completed after 22 seconds
+02:27:29.904392 AsyncCompletion: Task 0x007f83db49d600 completed after 22 seconds
+02:27:29.904395 AsyncCompletion: Task 0x007f83db49da00 completed after 22 seconds
+02:27:29.904398 AsyncCompletion: Task 0x007f83db49d840 completed after 22 seconds
+02:27:29.904400 AsyncCompletion: Task 0x007f83db49d240 completed after 22 seconds
+02:27:29.904403 AsyncCompletion: Task 0x007f83db49dc40 completed after 22 seconds
+02:27:29.904406 AsyncCompletion: Task 0x007f83db49d3c0 completed after 22 seconds
+02:27:29.904408 AsyncCompletion: Task 0x007f83db49d900 completed after 22 seconds
+02:27:29.904410 AsyncCompletion: Task 0x007f83db49d780 completed after 22 seconds
+02:27:29.904412 AsyncCompletion: Task 0x007f83db49d200 completed after 22 seconds
+02:27:29.904414 AsyncCompletion: Task 0x007f83db49d680 completed after 22 seconds
+02:27:29.904417 AsyncCompletion: Task 0x007f83db49db00 completed after 22 seconds
+02:27:29.904420 AsyncCompletion: Task 0x007f83db49d540 completed after 22 seconds
+02:27:29.904423 AsyncCompletion: Task 0x007f83db49d500 completed after 22 seconds
+02:27:29.904425 AsyncCompletion: Task 0x007f83db49d4c0 completed after 22 seconds
+02:27:29.904429 AsyncCompletion: Task 0x007f83db49dcc0 completed after 22 seconds
+02:27:29.904432 AsyncCompletion: Task 0x007f83db49db80 completed after 22 seconds
+02:27:29.904435 AsyncCompletion: Task 0x007f83db49dbc0 completed after 22 seconds
+02:27:29.904438 AsyncCompletion: Task 0x007f83db49dc00 completed after 22 seconds
+02:27:29.904441 AsyncCompletion: Task 0x007f83db49dc80 completed after 22 seconds
+02:27:29.904443 AsyncCompletion: Task 0x007f83db49dd00 completed after 22 seconds
+02:27:29.904446 AsyncCompletion: Task 0x007f83db49dd80 completed after 22 seconds
+02:27:29.904448 AsyncCompletion: Task 0x007f83db49dd40 completed after 22 seconds
+02:27:29.904450 AsyncCompletion: Task 0x007f83db49ddc0 completed after 22 seconds
+02:27:29.904453 AsyncCompletion: Task 0x007f83db49de00 completed after 22 seconds
+02:27:29.904455 AsyncCompletion: Task 0x007f83db49de40 completed after 22 seconds
+02:27:29.904492 AsyncCompletion: Task 0x007f83db49de80 completed after 22 seconds
+02:27:29.904495 AsyncCompletion: Task 0x007f83db49dec0 completed after 22 seconds
+02:27:29.904497 AsyncCompletion: Task 0x007f83db49df00 completed after 22 seconds
+02:27:29.904499 AsyncCompletion: Task 0x007f83db49df40 completed after 22 seconds
+02:27:29.904502 AsyncCompletion: Task 0x007f83db49df80 completed after 22 seconds
+02:27:29.904504 AsyncCompletion: Task 0x007f83db49dfc0 completed after 22 seconds
+02:27:29.904511 AsyncCompletion: Task 0x007f83db3a8fc0 completed after 22 seconds
+02:27:29.904513 AsyncCompletion: Task 0x007f83db3a8f80 completed after 22 seconds
+02:27:29.904516 AsyncCompletion: Task 0x007f83db3a8f40 completed after 22 seconds
+02:27:29.904518 AsyncCompletion: Task 0x007f83db3a8f00 completed after 22 seconds
+02:27:29.904520 AsyncCompletion: Task 0x007f83db3a8ec0 completed after 22 seconds
+02:27:29.904522 AsyncCompletion: Task 0x007f83db3a8e80 completed after 22 seconds
+02:27:29.904524 AsyncCompletion: Task 0x007f83db3a8e40 completed after 22 seconds
+02:27:29.904527 AsyncCompletion: Task 0x007f83db3a8e00 completed after 22 seconds
+02:27:42.955423 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 42 seconds ago
+02:27:43.032246 VMMDev: GuestHeartBeat: Guest is alive (gone 44 580 724 709 ns)
+02:27:53.953639 TM: Giving up catch-up attempt at a 63 592 116 653 ns lag; new total: 681 823 678 022 ns
+02:27:54.553212 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 11 seconds ago
+02:28:16.988725 VMMDev: GuestHeartBeat: Guest is alive (gone 33 181 068 683 ns)
+02:28:30.625285 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 14 seconds ago
+02:28:30.651620 VMMDev: GuestHeartBeat: Guest is alive (gone 14 438 304 853 ns)
+02:28:37.105277 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:29:04.648751 TM: Giving up catch-up attempt at a 68 767 756 088 ns lag; new total: 750 591 434 110 ns
+02:30:03.217724 VMMDev: GuestHeartBeat: Guest is alive (gone 92 540 402 965 ns)
+02:30:26.759690 TM: Giving up catch-up attempt at a 76 914 737 120 ns lag; new total: 827 506 171 230 ns
+02:30:28.699701 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 25 seconds ago
+02:30:47.999723 VMMDev: GuestHeartBeat: Guest is alive (gone 44 807 696 920 ns)
+02:30:54.602499 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:31:06.821511 VMMDev: GuestHeartBeat: Guest is alive (gone 16 093 872 712 ns)
+02:31:26.634723 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 22 seconds ago
+02:31:39.895239 TM: Giving up catch-up attempt at a 70 664 371 725 ns lag; new total: 898 170 542 955 ns
+02:31:52.619207 VMMDev: GuestHeartBeat: Guest is alive (gone 48 187 375 295 ns)
+02:32:26.363216 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 32 seconds ago
+02:32:51.054615 TM: Giving up catch-up attempt at a 70 032 873 559 ns lag; new total: 968 203 416 514 ns
+02:33:44.385066 VMMDev: GuestHeartBeat: Guest is alive (gone 112 104 091 485 ns)
+02:34:02.859863 TM: Giving up catch-up attempt at a 70 733 290 126 ns lag; new total: 1 038 936 706 640 ns
+02:34:02.859898 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 18 seconds ago
+02:34:41.850717 VMMDev: GuestHeartBeat: Guest is alive (gone 57 465 653 570 ns)
+02:35:00.603907 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 17 seconds ago
+02:35:23.442197 AsyncCompletion: Task 0x007f83db40fd40 completed after 10 seconds
+02:35:39.217555 TM: Giving up catch-up attempt at a 93 342 999 278 ns lag; new total: 1 132 279 705 918 ns
+02:37:10.837618 TM: Giving up catch-up attempt at a 90 835 579 302 ns lag; new total: 1 223 115 285 220 ns
+02:37:23.558215 VMMDev: GuestHeartBeat: Guest is alive (gone 159 499 132 432 ns)
+02:37:43.289418 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 21 seconds ago
+02:38:01.174350 VMMDev: GuestHeartBeat: Guest is alive (gone 38 543 478 044 ns)
+02:38:07.924548 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:38:14.587454 TM: Giving up catch-up attempt at a 60 721 657 890 ns lag; new total: 1 283 836 943 110 ns
+02:38:31.044455 VMMDev: GuestHeartBeat: Guest is alive (gone 30 080 522 051 ns)
+02:38:40.219828 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 10 seconds ago
+02:38:53.534567 VMMDev: GuestHeartBeat: Guest is alive (gone 23 196 669 150 ns)
+02:39:12.214319 AsyncCompletion: Task 0x007f83db40fd00 completed after 14 seconds
+02:39:12.251368 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 19 seconds ago
+02:39:57.706155 TM: Giving up catch-up attempt at a 96 384 750 463 ns lag; new total: 1 380 221 693 573 ns
+02:40:03.059849 VMMDev: GuestHeartBeat: Guest is alive (gone 69 656 774 832 ns)
+02:40:53.133635 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 49 seconds ago
+02:41:02.650248 TM: Giving up catch-up attempt at a 61 711 297 569 ns lag; new total: 1 441 932 991 142 ns
+02:41:03.019213 VMMDev: GuestHeartBeat: Guest is alive (gone 60 191 922 879 ns)
+02:41:29.645549 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 25 seconds ago
+02:41:40.692696 VMMDev: GuestHeartBeat: Guest is alive (gone 37 364 566 174 ns)
+02:41:53.196805 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+02:42:04.539446 TM: Giving up catch-up attempt at a 60 873 117 305 ns lag; new total: 1 502 806 108 447 ns
+02:42:07.752785 VMMDev: GuestHeartBeat: Guest is alive (gone 26 300 488 620 ns)
+02:42:43.480764 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 36 seconds ago
+02:43:07.977326 TM: Giving up catch-up attempt at a 61 476 577 484 ns lag; new total: 1 564 282 685 931 ns
+02:44:17.878035 TM: Giving up catch-up attempt at a 60 903 175 448 ns lag; new total: 1 625 185 861 379 ns
+02:44:33.710775 VMMDev: GuestHeartBeat: Guest is alive (gone 147 026 503 985 ns)
+02:45:13.029215 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 36 seconds ago
+02:45:20.547183 TM: Giving up catch-up attempt at a 60 665 188 076 ns lag; new total: 1 685 851 049 455 ns
+02:45:31.468816 VMMDev: GuestHeartBeat: Guest is alive (gone 55 890 382 854 ns)
+02:45:53.343940 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 19 seconds ago
+02:46:01.789410 VMMDev: GuestHeartBeat: Guest is alive (gone 30 735 696 333 ns)
+02:46:23.525843 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 18 seconds ago
+02:46:32.464867 TM: Giving up catch-up attempt at a 64 873 624 591 ns lag; new total: 1 750 724 674 046 ns
+02:46:39.190468 VMMDev: GuestHeartBeat: Guest is alive (gone 36 453 952 148 ns)
+02:47:09.744150 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 10 seconds ago
+02:47:47.407004 TM: Giving up catch-up attempt at a 71 938 127 597 ns lag; new total: 1 822 662 801 643 ns
+02:49:07.268798 TM: Giving up catch-up attempt at a 63 152 677 222 ns lag; new total: 1 885 815 478 865 ns
+02:50:20.373842 TM: Giving up catch-up attempt at a 62 809 825 000 ns lag; new total: 1 948 625 303 865 ns
+02:51:31.062705 TM: Giving up catch-up attempt at a 60 744 977 401 ns lag; new total: 2 009 370 281 266 ns
+02:52:48.687186 TM: Giving up catch-up attempt at a 63 237 699 466 ns lag; new total: 2 072 607 980 732 ns
+02:54:01.390211 TM: Giving up catch-up attempt at a 62 568 468 783 ns lag; new total: 2 135 176 449 515 ns
+02:54:16.942493 VMMDev: GuestHeartBeat: Guest is alive (gone 437 620 416 239 ns)
+02:54:35.274944 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 19 seconds ago
+02:55:17.006933 TM: Giving up catch-up attempt at a 74 112 035 588 ns lag; new total: 2 209 288 485 103 ns
+02:55:40.461845 AsyncCompletion: Task 0x007f83db40fdc0 completed after 17 seconds
+02:55:42.847647 AsyncCompletion: Task 0x007f83db40fe00 completed after 19 seconds
+02:55:58.030842 AsyncCompletion: Task 0x007f83db40fd80 completed after 34 seconds
+02:55:58.323667 AsyncCompletion: Task 0x007f83db40fe80 completed after 35 seconds
+02:55:58.369831 AsyncCompletion: Task 0x007f83db40fec0 completed after 35 seconds
+02:55:58.369843 AsyncCompletion: Task 0x007f83db40fe40 completed after 35 seconds
+02:55:58.369846 AsyncCompletion: Task 0x007f83db40ff00 completed after 35 seconds
+02:55:58.369849 AsyncCompletion: Task 0x007f83db49d140 completed after 35 seconds
+02:55:58.369851 AsyncCompletion: Task 0x007f83db40ff40 completed after 35 seconds
+02:55:58.369853 AsyncCompletion: Task 0x007f83db49d640 completed after 35 seconds
+02:55:58.369856 AsyncCompletion: Task 0x007f83db3a8080 completed after 35 seconds
+02:55:58.369858 AsyncCompletion: Task 0x007f83db40ff80 completed after 35 seconds
+02:55:58.369861 AsyncCompletion: Task 0x007f83db40ffc0 completed after 35 seconds
+02:55:58.369875 AsyncCompletion: Task 0x007f83db3a8180 completed after 35 seconds
+02:55:58.369878 AsyncCompletion: Task 0x007f83db3a81c0 completed after 35 seconds
+02:55:58.369881 AsyncCompletion: Task 0x007f83db3a8140 completed after 35 seconds
+02:55:58.369884 AsyncCompletion: Task 0x007f83db3a80c0 completed after 35 seconds
+02:55:58.369887 AsyncCompletion: Task 0x007f83db3a8100 completed after 35 seconds
+02:55:58.369890 AsyncCompletion: Task 0x007f83db3a8200 completed after 35 seconds
+02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       02:57:05.426995 VMMDev: GuestHeartBeat: Guest is alive (gone 4 878 554 778 ns)
+02:57:10.214956 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:57:12.749336 VMMDev: GuestHeartBeat: Guest is alive (gone 7 321 073 807 ns)
+02:57:17.581480 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:57:19.057542 VMMDev: GuestHeartBeat: Guest is alive (gone 6 297 382 180 ns)
+02:57:23.269843 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:57:23.766814 VMMDev: GuestHeartBeat: Guest is alive (gone 4 756 385 791 ns)
+02:57:28.219763 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:57:30.097343 VMMDev: GuestHeartBeat: Guest is alive (gone 6 355 907 736 ns)
+02:57:34.403936 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:57:39.983253 VMMDev: GuestHeartBeat: Guest is alive (gone 9 789 412 166 ns)
+02:57:45.268042 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+02:57:55.669708 VMMDev: GuestHeartBeat: Guest is alive (gone 15 767 547 096 ns)
+02:58:00.081710 TM: Giving up catch-up attempt at a 60 543 026 950 ns lag; new total: 2 330 348 495 051 ns
+02:58:00.240701 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+02:58:29.392099 VMMDev: GuestHeartBeat: Guest is alive (gone 33 719 515 399 ns)
+02:58:36.111347 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:58:54.887870 VMMDev: GuestHeartBeat: Guest is alive (gone 25 514 054 488 ns)
+02:59:01.200078 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+02:59:07.809779 TM: Giving up catch-up attempt at a 64 673 490 275 ns lag; new total: 2 395 021 985 326 ns
+02:59:30.321295 VMMDev: GuestHeartBeat: Guest is alive (gone 35 433 422 431 ns)
+02:59:47.951322 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:00:00.617168 VMMDev: GuestHeartBeat: Guest is alive (gone 19 247 251 384 ns)
+03:00:04.666772 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:00:17.862339 TM: Giving up catch-up attempt at a 61 761 400 742 ns lag; new total: 2 456 783 386 068 ns
+03:00:18.082692 VMMDev: GuestHeartBeat: Guest is alive (gone 17 450 522 210 ns)
+03:00:24.417222 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:01:20.087490 TM: Giving up catch-up attempt at a 61 034 592 189 ns lag; new total: 2 517 817 978 257 ns
+03:01:33.555056 VMMDev: GuestHeartBeat: Guest is alive (gone 75 487 364 283 ns)
+03:01:39.864929 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:02:10.337337 VMMDev: GuestHeartBeat: Guest is alive (gone 36 660 852 593 ns)
+03:02:14.727665 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:02:22.305825 VMMDev: GuestHeartBeat: Guest is alive (gone 12 063 440 095 ns)
+03:02:25.295696 TM: Giving up catch-up attempt at a 60 701 762 177 ns lag; new total: 2 578 519 740 434 ns
+03:02:26.499962 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:02:46.364095 VMMDev: GuestHeartBeat: Guest is alive (gone 24 018 356 706 ns)
+03:02:50.981979 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:02:56.618949 VMMDev: GuestHeartBeat: Guest is alive (gone 10 321 242 392 ns)
+03:03:01.507655 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:03:14.250955 VMMDev: GuestHeartBeat: Guest is alive (gone 17 581 464 625 ns)
+03:03:19.205843 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:03:24.794756 VMMDev: GuestHeartBeat: Guest is alive (gone 10 575 114 360 ns)
+03:03:29.021646 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:03:34.566693 TM: Giving up catch-up attempt at a 60 181 333 964 ns lag; new total: 2 638 701 074 398 ns
+03:03:42.663269 VMMDev: GuestHeartBeat: Guest is alive (gone 17 770 925 389 ns)
+03:03:47.002853 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:04:24.906164 VMMDev: GuestHeartBeat: Guest is alive (gone 42 359 714 116 ns)
+03:04:28.971790 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago
+03:04:47.717344 TM: Giving up catch-up attempt at a 69 486 124 576 ns lag; new total: 2 708 187 198 974 ns
+03:05:07.067742 VMMDev: GuestHeartBeat: Guest is alive (gone 42 161 570 145 ns)
+03:05:13.613248 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:05:39.266296 VMMDev: GuestHeartBeat: Guest is alive (gone 32 198 560 562 ns)
+03:05:45.330984 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 5 seconds ago
+03:05:52.137423 TM: Giving up catch-up attempt at a 60 250 082 596 ns lag; new total: 2 768 437 281 570 ns
+03:06:17.367837 VMMDev: GuestHeartBeat: Guest is alive (gone 38 101 537 984 ns)
+03:06:23.907571 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:06:30.370558 VMMDev: GuestHeartBeat: Guest is alive (gone 12 985 192 088 ns)
+03:06:36.886708 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:06:56.646627 TM: Giving up catch-up attempt at a 60 434 923 438 ns lag; new total: 2 828 872 205 008 ns
+03:07:26.641933 VMMDev: GuestHeartBeat: Guest is alive (gone 56 288 902 624 ns)
+03:07:39.474049 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:07:58.561326 TM: Giving up catch-up attempt at a 60 485 041 112 ns lag; new total: 2 889 357 246 120 ns
+03:08:37.449368 VMMDev: GuestHeartBeat: Guest is alive (gone 70 807 440 126 ns)
+03:08:43.788386 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:08:57.640624 VMMDev: GuestHeartBeat: Guest is alive (gone 20 191 253 478 ns)
+03:09:07.264840 TM: Giving up catch-up attempt at a 65 119 956 727 ns lag; new total: 2 954 477 202 847 ns
+03:09:07.270033 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              03:18:51.401747 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:19:04.305943 VMMDev: GuestHeartBeat: Guest is alive (gone 19 622 097 942 ns)
+03:19:17.137008 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:19:29.744240 TM: Giving up catch-up attempt at a 60 111 940 221 ns lag; new total: 3 546 052 066 452 ns
+03:20:01.624704 VMMDev: GuestHeartBeat: Guest is alive (gone 57 319 248 339 ns)
+03:20:11.532966 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 8 seconds ago
+03:20:33.624173 TM: Giving up catch-up attempt at a 62 335 946 918 ns lag; new total: 3 608 388 013 370 ns
+03:20:52.992529 VMMDev: GuestHeartBeat: Guest is alive (gone 51 367 545 838 ns)
+03:21:05.993843 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:21:38.091705 TM: Giving up catch-up attempt at a 61 735 791 899 ns lag; new total: 3 670 123 805 269 ns
+03:22:23.170835 VMMDev: GuestHeartBeat: Guest is alive (gone 90 179 319 978 ns)
+03:22:35.865994 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:22:42.382758 TM: Giving up catch-up attempt at a 61 897 174 677 ns lag; new total: 3 732 020 979 946 ns
+03:23:14.721198 VMMDev: GuestHeartBeat: Guest is alive (gone 51 550 362 953 ns)
+03:23:27.662711 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:23:55.581971 TM: Giving up catch-up attempt at a 71 336 731 834 ns lag; new total: 3 803 357 711 780 ns
+03:24:06.225500 VMMDev: GuestHeartBeat: Guest is alive (gone 51 491 017 634 ns)
+03:24:12.244487 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:25:01.887865 TM: Giving up catch-up attempt at a 64 832 995 683 ns lag; new total: 3 868 190 707 463 ns
+03:25:08.435852 VMMDev: GuestHeartBeat: Guest is alive (gone 62 223 638 536 ns)
+03:25:14.947847 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:25:39.717844 VMMDev: GuestHeartBeat: Guest is alive (gone 31 281 994 835 ns)
+03:25:45.939692 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:26:01.379868 VMMDev: GuestHeartBeat: Guest is alive (gone 21 662 017 477 ns)
+03:26:14.215092 TM: Giving up catch-up attempt at a 67 323 221 037 ns lag; new total: 3 935 513 928 500 ns
+03:26:14.215123 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:26:38.965582 VMMDev: GuestHeartBeat: Guest is alive (gone 37 585 714 042 ns)
+03:26:45.460984 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:27:22.256381 TM: Giving up catch-up attempt at a 63 380 699 315 ns lag; new total: 3 998 894 627 815 ns
+03:27:25.310759 VMMDev: GuestHeartBeat: Guest is alive (gone 45 785 828 567 ns)
+03:27:43.252137 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 18 seconds ago
+03:28:27.738518 TM: Giving up catch-up attempt at a 64 498 997 887 ns lag; new total: 4 063 393 625 702 ns
+03:28:52.913894 VMMDev: GuestHeartBeat: Guest is alive (gone 88 162 479 910 ns)
+03:29:06.120342 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 13 seconds ago
+03:29:31.266667 TM: Giving up catch-up attempt at a 61 364 221 159 ns lag; new total: 4 124 757 846 861 ns
+03:29:45.674867 VMMDev: GuestHeartBeat: Guest is alive (gone 51 760 458 226 ns)
+03:30:03.293319 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 18 seconds ago
+03:30:39.333385 TM: Giving up catch-up attempt at a 66 804 106 241 ns lag; new total: 4 191 561 953 102 ns
+03:31:43.130074 TM: Giving up catch-up attempt at a 62 324 535 918 ns lag; new total: 4 253 886 489 020 ns
+03:31:43.196675 VMMDev: GuestHeartBeat: Guest is alive (gone 118 522 331 299 ns)
+03:32:03.538843 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 20 seconds ago
+03:32:23.515937 VMMDev: GuestHeartBeat: Guest is alive (gone 40 319 251 762 ns)
+03:32:35.630415 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:32:50.246805 TM: Giving up catch-up attempt at a 65 458 420 001 ns lag; new total: 4 319 344 909 021 ns
+03:32:55.319334 VMMDev: GuestHeartBeat: Guest is alive (gone 31 775 617 294 ns)
+03:33:26.317713 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 14 seconds ago
+03:33:29.078475 VMMDev: GuestHeartBeat: Guest is alive (gone 19 359 444 265 ns)
+03:33:46.957517 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 16 seconds ago
+03:34:07.021815 TM: Giving up catch-up attempt at a 69 879 118 384 ns lag; new total: 4 389 224 027 405 ns
+03:34:25.362908 VMMDev: GuestHeartBeat: Guest is alive (gone 56 284 428 431 ns)
+03:34:38.086715 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:35:10.148112 TM: Giving up catch-up attempt at a 60 802 542 108 ns lag; new total: 4 450 026 569 513 ns
+03:35:23.645363 VMMDev: GuestHeartBeat: Guest is alive (gone 57 767 399 961 ns)
+03:35:47.805050 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 24 seconds ago
+03:36:15.741439 TM: Giving up catch-up attempt at a 63 022 699 901 ns lag; new total: 4 513 049 269 414 ns
+03:36:15.771584 VMMDev: GuestHeartBeat: Guest is alive (gone 52 641 277 728 ns)
+03:36:34.701349 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 18 seconds ago
+03:37:08.808472 VMMDev: GuestHeartBeat: Guest is alive (gone 51 732 386 497 ns)
+03:37:19.878292 TM: Giving up catch-up attempt at a 61 773 858 961 ns lag; new total: 4 574 823 128 375 ns
+03:37:19.945962 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:37:43.013509 VMMDev: GuestHeartBeat: Guest is alive (gone 35 162 246 643 ns)
+03:38:09.172612 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 25 seconds ago
+03:38:34.051833 TM: Giving up catch-up attempt at a 71 927 976 902 ns lag; new total: 4 646 751 105 277 ns
+03:39:07.725069 VMMDev: GuestHeartBeat: Guest is alive (gone 83 626 324 008 ns)
+03:39:38.525626 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 10 seconds ago
+03:39:45.709403 TM: Giving up catch-up attempt at a 63 193 929 547 ns lag; new total: 4 709 945 034 824 ns
+03:40:44.960887 VMMDev: GuestHeartBeat: Guest is alive (gone 75 121 688 801 ns)
+03:40:53.340394 TM: Giving up catch-up attempt at a 64 724 047 730 ns lag; new total: 4 774 669 082 554 ns
+03:41:07.651347 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 24 seconds ago
+03:41:57.786988 TM: Giving up catch-up attempt at a 63 420 126 224 ns lag; new total: 4 838 089 208 778 ns
+03:42:09.750042 VMMDev: GuestHeartBeat: Guest is alive (gone 59 934 048 254 ns)
+03:42:30.333042 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:43:04.927720 TM: Giving up catch-up attempt at a 60 082 260 106 ns lag; new total: 4 898 171 468 884 ns
+03:43:22.772928 VMMDev: GuestHeartBeat: Guest is alive (gone 58 402 878 175 ns)
+03:43:49.034522 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 28 seconds ago
+03:44:15.405601 TM: Giving up catch-up attempt at a 66 483 536 946 ns lag; new total: 4 964 655 005 830 ns
+03:45:34.508617 TM: Giving up catch-up attempt at a 72 760 138 385 ns lag; new total: 5 037 415 144 215 ns
+03:45:56.571545 VMMDev: GuestHeartBeat: Guest is alive (gone 155 827 447 671 ns)
+03:46:28.990542 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:46:42.169669 TM: Giving up catch-up attempt at a 65 036 524 523 ns lag; new total: 5 102 451 668 738 ns
+03:47:30.633491 VMMDev: GuestHeartBeat: Guest is alive (gone 74 106 180 432 ns)
+03:47:45.468226 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 13 seconds ago
+03:47:49.219698 TM: Giving up catch-up attempt at a 63 075 862 370 ns lag; new total: 5 165 527 531 108 ns
+03:47:49.240429 VMMDev: GuestHeartBeat: Guest is alive (gone 18 606 942 688 ns)
+03:48:23.479892 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 33 seconds ago
+03:48:31.040023 VMMDev: GuestHeartBeat: Guest is alive (gone 41 784 371 510 ns)
+03:48:56.987477 TM: Giving up catch-up attempt at a 62 072 144 695 ns lag; new total: 5 227 599 675 803 ns
+03:48:58.533842 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 27 seconds ago
+03:49:45.551682 VMMDev: GuestHeartBeat: Guest is alive (gone 73 230 401 274 ns)
+03:49:58.675552 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 9 seconds ago
+03:50:31.078003 TM: Giving up catch-up attempt at a 88 761 202 537 ns lag; new total: 5 316 360 878 340 ns
+03:50:43.370557 VMMDev: GuestHeartBeat: Guest is alive (gone 53 755 646 713 ns)
+03:50:54.504535 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 12 seconds ago
+03:51:21.166923 VMMDev: GuestHeartBeat: Guest is alive (gone 37 732 580 245 ns)
+03:51:37.290749 TM: Giving up catch-up attempt at a 60 192 572 531 ns lag; new total: 5 376 553 450 871 ns
+03:51:45.714401 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 24 seconds ago
+03:52:48.067360 TM: Giving up catch-up attempt at a 68 821 491 531 ns lag; new total: 5 445 374 942 402 ns
+03:54:16.677544 TM: Giving up catch-up attempt at a 82 486 349 846 ns lag; new total: 5 527 861 292 248 ns
+03:54:18.182372 VMMDev: GuestHeartBeat: Guest is alive (gone 178 041 319 288 ns)
+03:54:46.009613 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 26 seconds ago
+03:55:24.619711 TM: Giving up catch-up attempt at a 71 039 159 716 ns lag; new total: 5 598 900 451 964 ns
+03:56:00.936971 VMMDev: GuestHeartBeat: Guest is alive (gone 101 807 331 766 ns)
+03:56:34.173939 TM: Giving up catch-up attempt at a 64 546 852 824 ns lag; new total: 5 663 447 304 788 ns
+03:56:37.825669 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 6 seconds ago
+03:56:56.188670 VMMDev: GuestHeartBeat: Guest is alive (gone 24 655 235 976 ns)
+03:57:19.111708 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 24 seconds ago
+03:58:04.329732 TM: Giving up catch-up attempt at a 80 833 249 214 ns lag; new total: 5 744 280 554 002 ns
+03:58:55.617392 VMMDev: GuestHeartBeat: Guest is alive (gone 116 998 695 197 ns)
+03:59:08.964191 TM: Giving up catch-up attempt at a 60 962 761 986 ns lag; new total: 5 805 243 315 988 ns
+03:59:27.514644 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 34 seconds ago
+03:59:36.147330 VMMDev: GuestHeartBeat: Guest is alive (gone 42 772 661 457 ns)
+04:00:03.195709 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 28 seconds ago
+04:00:16.125724 TM: Giving up catch-up attempt at a 60 189 990 665 ns lag; new total: 5 865 433 306 653 ns
+04:00:18.579866 VMMDev: GuestHeartBeat: Guest is alive (gone 43 352 747 096 ns)
+04:00:28.331831 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 10 seconds ago
+04:01:15.959886 VMMDev: GuestHeartBeat: Guest is alive (gone 57 637 687 842 ns)
+04:01:25.008413 TM: Giving up catch-up attempt at a 67 375 470 914 ns lag; new total: 5 932 808 777 567 ns
+04:01:28.963301 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 13 seconds ago
+04:02:14.288255 VMMDev: GuestHeartBeat: Guest is alive (gone 57 976 420 456 ns)
+04:02:31.870118 TM: Giving up catch-up attempt at a 61 300 581 539 ns lag; new total: 5 994 109 359 106 ns
+04:02:45.875854 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 31 seconds ago
+04:03:05.387275 VMMDev: GuestHeartBeat: Guest is alive (gone 51 285 414 818 ns)
+04:03:20.475548 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 14 seconds ago
+04:03:49.481331 TM: Giving up catch-up attempt at a 72 234 350 190 ns lag; new total: 6 066 343 709 296 ns
+04:03:51.932768 VMMDev: GuestHeartBeat: Guest is alive (gone 45 947 708 041 ns)
+04:04:22.466518 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 31 seconds ago
+04:05:07.452209 TM: Giving up catch-up attempt at a 63 342 843 982 ns lag; new total: 6 129 686 553 278 ns
+04:06:01.531973 VMMDev: GuestHeartBeat: Guest is alive (gone 130 042 210 910 ns)
+04:06:16.657554 TM: Giving up catch-up attempt at a 61 856 608 432 ns lag; new total: 6 191 543 161 710 ns
+04:06:20.368791 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 19 seconds ago
+04:07:23.540546 TM: Giving up catch-up attempt at a 62 135 508 627 ns lag; new total: 6 253 678 670 337 ns
+04:07:50.858424 VMMDev: GuestHeartBeat: Guest is alive (gone 109 027 972 066 ns)
+04:08:12.220660 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 21 seconds ago
+04:08:43.461603 TM: Giving up catch-up attempt at a 74 350 281 959 ns lag; new total: 6 328 028 952 296 ns
+04:09:56.184359 TM: Giving up catch-up attempt at a 63 034 054 931 ns lag; new total: 6 391 063 007 227 ns
+04:10:59.597820 VMMDev: GuestHeartBeat: Guest is alive (gone 188 384 047 838 ns)
+04:11:12.286215 TM: Giving up catch-up attempt at a 61 608 722 940 ns lag; new total: 6 452 671 730 167 ns
+04:11:28.933865 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 29 seconds ago
+04:12:32.619555 TM: Giving up catch-up attempt at a 80 135 784 825 ns lag; new total: 6 532 807 514 992 ns
+04:13:39.207304 TM: Giving up catch-up attempt at a 63 250 077 601 ns lag; new total: 6 596 057 592 593 ns
+04:14:46.300297 TM: Giving up catch-up attempt at a 67 611 773 612 ns lag; new total: 6 663 669 366 205 ns
+04:15:52.249924 TM: Giving up catch-up attempt at a 64 062 362 376 ns lag; new total: 6 727 731 728 581 ns
+04:17:02.340857 TM: Giving up catch-up attempt at a 61 405 457 532 ns lag; new total: 6 789 137 186 113 ns
+04:18:30.387088 TM: Giving up catch-up attempt at a 86 409 258 170 ns lag; new total: 6 875 546 444 283 ns
+04:19:42.870232 TM: Giving up catch-up attempt at a 63 818 016 624 ns lag; new total: 6 939 364 460 907 ns
+04:20:50.428977 TM: Giving up catch-up attempt at a 60 575 675 687 ns lag; new total: 6 999 940 136 594 ns
+04:22:06.599416 TM: Giving up catch-up attempt at a 72 085 254 655 ns lag; new total: 7 072 025 391 249 ns
+04:23:21.094621 TM: Giving up catch-up attempt at a 63 167 367 808 ns lag; new total: 7 135 192 759 057 ns
+04:24:17.611039 VMMDev: GuestHeartBeat: Guest is alive (gone 797 947 628 588 ns)
+04:24:31.641886 TM: Giving up catch-up attempt at a 64 237 385 269 ns lag; new total: 7 199 430 144 326 ns
+04:25:07.599148 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 50 seconds ago
+04:25:36.373393 TM: Giving up catch-up attempt at a 60 153 341 228 ns lag; new total: 7 259 583 485 554 ns
+04:26:41.296118 TM: Giving up catch-up attempt at a 62 527 441 508 ns lag; new total: 7 322 110 927 062 ns
+04:27:47.280364 TM: Giving up catch-up attempt at a 61 667 020 696 ns lag; new total: 7 383 777 947 758 ns
+04:28:56.729217 TM: Giving up catch-up attempt at a 60 717 270 780 ns lag; new total: 7 444 495 218 538 ns
+04:30:05.365842 TM: Giving up catch-up attempt at a 64 153 544 277 ns lag; new total: 7 508 648 762 815 ns
+04:31:16.524393 TM: Giving up catch-up attempt at a 60 670 127 470 ns lag; new total: 7 569 318 890 285 ns
+04:32:25.762187 TM: Giving up catch-up attempt at a 62 158 863 144 ns lag; new total: 7 631 477 753 429 ns
+04:33:55.586686 TM: Giving up catch-up attempt at a 90 687 722 180 ns lag; new total: 7 722 165 475 609 ns
+04:35:15.638946 TM: Giving up catch-up attempt at a 73 658 896 751 ns lag; new total: 7 795 824 372 360 ns
+04:38:49.806830 TM: Not bothering to attempt catching up a 211 793 065 949 ns lag; new total: 8 007 617 438 309
+04:41:00.667052 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:41:38.902224 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:42:47.224577 TM: Not bothering to attempt catching up a 177 592 219 218 ns lag; new total: 8 185 209 657 527
+04:42:55.752253 TM: Not bothering to attempt catching up a 68 384 299 805 ns lag; new total: 8 253 593 957 332
+04:43:45.338310 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:44:26.050581 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:45:12.131698 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:46:11.038904 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:47:03.933953 TM: Giving up catch-up attempt at a 178 636 823 064 ns lag; new total: 8 432 230 780 396 ns
+04:48:08.551332 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:48:45.761870 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:49:59.638210 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:51:15.014913 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:52:24.434720 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:52:36.726452 TM: Not bothering to attempt catching up a 281 328 542 664 ns lag; new total: 8 713 559 323 060
+04:53:15.314637 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:54:18.234589 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:55:54.604181 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:57:06.861310 TM: Not bothering to attempt catching up a 356 215 278 643 ns lag; new total: 9 069 774 601 703
+04:57:56.635153 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+04:59:12.517842 TM: Not bothering to attempt catching up a 97 886 084 975 ns lag; new total: 9 167 660 686 678
+04:59:40.026805 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:01:16.379221 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:02:03.471476 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:02:57.685633 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:03:39.205583 TM: Not bothering to attempt catching up a 292 100 459 970 ns lag; new total: 9 459 761 146 648
+05:04:31.462122 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:05:33.008274 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:06:41.492294 TM: Not bothering to attempt catching up a 88 505 249 223 ns lag; new total: 9 548 266 395 871
+05:06:56.587205 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:07:44.250011 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:08:58.183924 TM: Not bothering to attempt catching up a 145 608 870 411 ns lag; new total: 9 693 875 266 282
+05:09:29.402572 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:10:32.484160 TM: Not bothering to attempt catching up a 151 665 521 272 ns lag; new total: 9 845 540 787 554
+05:11:12.213008 TM: Not bothering to attempt catching up a 99 452 016 149 ns lag; new total: 9 944 992 803 703
+05:11:51.949461 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:13:36.046729 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:14:48.627089 TM: Giving up catch-up attempt at a 214 776 902 954 ns lag; new total: 10 159 769 706 657 ns
+05:15:18.327701 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:16:16.165159 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:17:23.820677 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:19:07.805264 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:20:16.551775 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:20:44.030426 TM: Not bothering to attempt catching up a 242 844 629 733 ns lag; new total: 10 402 614 336 390
+05:21:03.988840 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:21:47.070975 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:22:43.978488 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:23:53.312012 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:25:22.876892 TM: Not bothering to attempt catching up a 146 695 801 397 ns lag; new total: 10 549 310 137 787
+05:25:59.921038 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:27:22.312775 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:28:21.430141 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:29:23.449823 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:30:40.971626 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:31:45.113500 TM: Not bothering to attempt catching up a 284 000 699 286 ns lag; new total: 10 833 310 837 073
+05:32:11.881966 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:33:49.026544 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:34:49.110815 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:36:11.154405 TM: Not bothering to attempt catching up a 370 961 086 243 ns lag; new total: 11 204 271 923 316
+05:36:36.239328 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:37:43.816435 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:38:33.792510 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:39:50.153103 TM: Not bothering to attempt catching up a 263 775 917 550 ns lag; new total: 11 468 047 840 866
+05:40:30.162189 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:41:11.630840 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:42:17.532069 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:43:21.549714 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:44:14.314114 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:45:25.703625 TM: Not bothering to attempt catching up a 232 421 935 560 ns lag; new total: 11 700 469 776 426
+05:45:52.337213 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:46:38.170363 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:48:15.426160 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:49:32.289389 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:50:43.531270 TM: Not bothering to attempt catching up a 316 901 633 989 ns lag; new total: 12 017 371 410 415
+05:51:14.963281 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:52:53.181251 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:53:50.394929 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:54:34.958187 TM: Not bothering to attempt catching up a 328 864 152 836 ns lag; new total: 12 346 235 563 251
+05:54:55.750058 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:55:47.902907 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:56:44.795496 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:57:44.198693 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:58:48.045996 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+05:59:46.728995 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:01:06.968084 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:01:59.499347 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:02:51.638026 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:03:58.316148 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:05:07.233822 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:06:06.149051 TM: Not bothering to attempt catching up a 220 928 727 373 ns lag; new total: 12 567 164 290 624
+06:06:39.639029 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:07:08.179761 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:08:06.318558 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:09:11.663490 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:10:39.830269 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:12:00.369282 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:13:20.965842 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:14:17.318814 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:14:55.820049 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:15:05.726092 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:15:29.772801 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:15:57.480899 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:16:32.281387 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:16:46.757008 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:17:27.549678 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:18:06.746949 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:18:23.254384 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:19:19.850984 TM: Not bothering to attempt catching up a 700 782 329 464 ns lag; new total: 13 267 946 620 088
+06:19:34.182511 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:20:41.269696 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:20:50.370200 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:21:06.285906 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:21:23.034739 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:21:30.386125 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:21:57.109624 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:22:22.295008 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:22:34.950459 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:22:56.405858 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:04.063881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:17.966841 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947702 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947723 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947740 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947753 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947770 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947782 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947793 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:23:22.947808 TM: Not bothering to attempt catching up a 778 914 447 281 ns lag; new total: 14 046 861 067 369
+06:23:26.372921 TM: Not bothering to attempt catching up a 224 007 094 583 ns lag; new total: 14 270 868 161 952
+06:24:57.435470 TM: Giving up catch-up attempt at a 88 525 325 779 ns lag; new total: 14 359 393 487 731 ns
+06:26:31.659237 TM: Giving up catch-up attempt at a 94 498 095 353 ns lag; new total: 14 453 891 583 084 ns
+06:27:16.534812 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:27:25.720934 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:27:38.761766 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:28:00.966402 TM: Giving up catch-up attempt at a 87 061 856 709 ns lag; new total: 14 540 953 439 793 ns
+06:29:15.460003 TM: Giving up catch-up attempt at a 68 421 437 626 ns lag; new total: 14 609 374 877 419 ns
+06:30:49.479458 TM: Giving up catch-up attempt at a 89 294 010 373 ns lag; new total: 14 698 668 887 792 ns
+06:31:49.507408 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:32:11.546689 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:32:22.895209 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:33:20.178243 TM: Giving up catch-up attempt at a 88 420 887 344 ns lag; new total: 14 787 089 775 136 ns
+06:33:20.196247 TM: Not bothering to attempt catching up a 60 414 304 219 ns lag; new total: 14 847 504 079 355
+06:35:52.405843 TM: Giving up catch-up attempt at a 147 844 437 096 ns lag; new total: 14 995 348 516 451 ns
+06:37:43.147899 TM: Giving up catch-up attempt at a 104 861 346 519 ns lag; new total: 15 100 209 862 970 ns
+06:38:30.380496 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:39:01.700700 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:39:14.586371 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:39:35.428211 TM: Giving up catch-up attempt at a 111 034 049 042 ns lag; new total: 15 211 243 912 012 ns
+06:40:34.433121 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:41:03.820759 TM: Giving up catch-up attempt at a 82 116 689 747 ns lag; new total: 15 293 360 601 759 ns
+06:43:00.507707 TM: Not bothering to attempt catching up a 119 667 712 317 ns lag; new total: 15 413 028 314 076
+06:44:56.964847 TM: Not bothering to attempt catching up a 116 349 436 041 ns lag; new total: 15 529 377 750 117
+06:46:44.422154 TM: Giving up catch-up attempt at a 100 403 544 172 ns lag; new total: 15 629 781 294 289 ns
+06:47:13.446879 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:47:41.045886 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:47:52.528101 TM: Giving up catch-up attempt at a 63 072 326 026 ns lag; new total: 15 692 853 620 315 ns
+06:48:44.069386 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:48:58.832975 TM: Giving up catch-up attempt at a 60 133 279 207 ns lag; new total: 15 752 986 899 522 ns
+06:50:00.269149 TM: Giving up catch-up attempt at a 61 822 534 120 ns lag; new total: 15 814 809 433 642 ns
+06:51:07.577758 TM: Giving up catch-up attempt at a 63 057 546 576 ns lag; new total: 15 877 866 980 218 ns
+06:53:14.161133 TM: Giving up catch-up attempt at a 122 348 714 810 ns lag; new total: 16 000 215 695 028 ns
+06:54:26.457710 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:54:58.536193 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:55:02.767638 TM: Giving up catch-up attempt at a 64 198 562 735 ns lag; new total: 16 064 414 257 763 ns
+06:55:22.106768 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:55:43.387152 TM: Giving up catch-up attempt at a 63 568 957 856 ns lag; new total: 16 127 983 215 619 ns
+06:56:40.690972 TM: Giving up catch-up attempt at a 64 320 041 257 ns lag; new total: 16 192 303 256 876 ns
+06:57:50.289618 TM: Giving up catch-up attempt at a 62 074 462 572 ns lag; new total: 16 254 377 719 448 ns
+06:58:49.474482 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+06:59:02.970629 TM: Giving up catch-up attempt at a 64 372 136 964 ns lag; new total: 16 318 749 856 412 ns
+07:00:34.579057 TM: Giving up catch-up attempt at a 87 343 134 607 ns lag; new total: 16 406 092 991 019 ns
+07:01:46.383392 TM: Giving up catch-up attempt at a 63 156 780 578 ns lag; new total: 16 469 249 771 597 ns
+07:01:53.186872 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:02:35.919100 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:02:55.589523 TM: Giving up catch-up attempt at a 62 326 223 720 ns lag; new total: 16 531 575 995 317 ns
+07:03:20.292547 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:04:04.695706 TM: Giving up catch-up attempt at a 63 740 035 536 ns lag; new total: 16 595 316 030 853 ns
+07:05:10.944953 TM: Giving up catch-up attempt at a 63 727 375 203 ns lag; new total: 16 659 043 406 056 ns
+07:06:19.397185 TM: Giving up catch-up attempt at a 60 523 851 137 ns lag; new total: 16 719 567 257 193 ns
+07:07:26.712844 TM: Giving up catch-up attempt at a 63 671 856 940 ns lag; new total: 16 783 239 114 133 ns
+07:08:26.775518 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:09:02.884056 TM: Giving up catch-up attempt at a 61 356 558 722 ns lag; new total: 16 844 595 672 855 ns
+07:09:40.863859 TM: Giving up catch-up attempt at a 64 137 053 694 ns lag; new total: 16 908 732 726 549 ns
+07:10:30.644980 VMMDev: GuestHeartBeat: Guest is alive (gone 9 972 181 539 418 ns)
+07:10:45.828465 TM: Giving up catch-up attempt at a 61 957 464 935 ns lag; new total: 16 970 690 191 484 ns
+07:11:43.275186 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 74 seconds ago
+07:11:56.764551 TM: Giving up catch-up attempt at a 61 689 960 367 ns lag; new total: 17 032 380 151 851 ns
+07:12:40.238396 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:13:24.933281 TM: Not bothering to attempt catching up a 86 338 673 473 ns lag; new total: 17 118 718 825 324
+07:13:56.762016 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:14:32.913839 TM: Giving up catch-up attempt at a 62 046 694 513 ns lag; new total: 17 180 765 519 837 ns
+07:15:38.358257 TM: Giving up catch-up attempt at a 68 765 228 879 ns lag; new total: 17 249 530 748 716 ns
+07:16:48.056451 TM: Giving up catch-up attempt at a 64 190 586 351 ns lag; new total: 17 313 721 335 067 ns
+07:17:52.562189 TM: Giving up catch-up attempt at a 64 827 931 842 ns lag; new total: 17 378 549 266 909 ns
+07:18:27.574063 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:18:50.747582 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:19:11.317711 TM: Giving up catch-up attempt at a 62 025 718 969 ns lag; new total: 17 440 574 985 878 ns
+07:20:05.360687 TM: Giving up catch-up attempt at a 63 031 266 024 ns lag; new total: 17 503 606 251 902 ns
+07:20:39.645507 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:21:12.405650 TM: Giving up catch-up attempt at a 61 128 315 702 ns lag; new total: 17 564 734 567 604 ns
+07:21:32.212846 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9b6e1aee-35f3-4f4d-b5bb-ed0ecefd8538} aComponent={EventSourceWrap} aText={Listener was never registered}, preserve=false aResultDetail=0
+07:22:22.532677 TM: Giving up catch-up attempt at a 62 893 135 537 ns lag; new total: 17 627 627 703 141 ns
+07:23:32.119649 TM: Giving up catch-up attempt at a 61 377 614 195 ns lag; new total: 17 689 005 317 336 ns
+07:27:06.043881 TM: Giving up catch-up attempt at a 210 189 074 992 ns lag; new total: 17 899 194 392 328 ns
+07:28:08.294902 TM: Giving up catch-up attempt at a 60 993 799 701 ns lag; new total: 17 960 188 192 029 ns
+07:29:27.139046 TM: Giving up catch-up attempt at a 73 678 973 702 ns lag; new total: 18 033 867 165 731 ns
+07:30:31.254516 TM: Giving up catch-up attempt at a 62 662 273 186 ns lag; new total: 18 096 529 438 917 ns
+07:31:39.729326 TM: Giving up catch-up attempt at a 61 509 999 496 ns lag; new total: 18 158 039 438 413 ns
+07:32:45.812103 TM: Giving up catch-up attempt at a 62 661 312 251 ns lag; new total: 18 220 700 750 664 ns
+07:33:50.219000 TM: Giving up catch-up attempt at a 60 221 104 186 ns lag; new total: 18 280 921 854 850 ns
